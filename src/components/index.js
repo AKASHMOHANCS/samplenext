@@ -1,9 +1,12 @@
 import React from "react";
+import About1 from "./About1/About1";
 import AboutSection from "./AboutSection";
+import Contact1 from "./Contact1/Contact1";
 import ContactSection from "./ContactSection";
 import HomeBanner from "./HomeBanner";
 import HomeContent from "./HomeContent";
 import CommonLayout from "./Layouts/CommonLayout";
+import Portfolio1 from "./Portfolio1/Portfolio1";
 import PortfolioSection from "./PortfolioSection";
 
 
@@ -13,7 +16,10 @@ const Components = {
   home_content:HomeContent,
   about:AboutSection,
   contact:ContactSection,
-  portfolio:PortfolioSection
+  portfolio:PortfolioSection,
+  about_1:About1,
+  contact_1:Contact1,
+  portfolio_1:Portfolio1
 
 };
 

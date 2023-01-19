@@ -5,7 +5,7 @@ import NotFound from "@/components/NotFound";
 import ComponentFunc from "@/components";
 
 const Common = ({ data }) => {
-  console.log(data)
+  console.log(data,"common slug=====")
   return (
     <>
       <Head>
@@ -41,6 +41,7 @@ const Common = ({ data }) => {
 export async function getStaticPaths() {
   return {
     paths: [
+     
       { params: { slug: ["about"] } },
       { params: { slug: ["portfolio"] } },
       { params: { slug: ["contact"] } },
@@ -50,11 +51,11 @@ export async function getStaticPaths() {
 }
 
 export const getStaticProps = async ({ params }) => {
- 
+  console.log(params,"params=======")
   let route = params.slug.join("/");
 
   const pageContent = await getPageContent(route);
-  const layout = await getLayout("/menu");
+  const layout = await getLayout("menu");
 
   const pageData = { ...pageContent, menu: layout };
 

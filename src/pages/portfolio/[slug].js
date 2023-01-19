@@ -1,6 +1,7 @@
 import ComponentFunc from "@/components";
 import CommonLayout from "@/components/Layouts/CommonLayout";
 import NotFound from "@/components/NotFound";
+import { getLayout, getPageContent } from "lib/pages";
 import Head from "next/head";
 import React from "react";
 
@@ -28,7 +29,7 @@ const Portfolio = (data) => {
       ) : (
         <>
           {data && (
-            <CommonLayout props={data?.menu}>
+            <CommonLayout props={data?.data?.menu}>
               <>{data?.data?.widgets?.map((block) => ComponentFunc(block))}</>
             </CommonLayout>
           )}
@@ -44,15 +45,15 @@ export default Portfolio;
 
 export async function getStaticPaths() {
   return {
-    paths: [],
-    fallback: "blocking",
+    paths: [{ params: { slug: "portfolio_1" } }],
+    fallback: false,
   };
 }
 
 
 export async function getStaticProps() {
   try {
-    const pageContent = await getPageContent("portfolio");
+    const pageContent = await getPageContent("portfolio_1");
     const layout = await getLayout("menu");
 
     const pageData = { ...pageContent, menu: layout };
