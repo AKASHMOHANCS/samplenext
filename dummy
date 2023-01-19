@@ -1,0 +1,1200 @@
+{
+    "data": {
+       
+        "widgets": [
+            {
+                "url": "home_banner",
+                "data": {
+                    "title": "Pioneers in the MEP & Building services industry.",
+                    "link": {
+                        "url": "/about",
+                        "text": "Learn more",
+                        "target": ""
+                    },
+                    "services": [
+                        {
+                            "color": "Color Section 1",
+                            "head": "HVAC Products &amp; Services",
+                            "description": "Chillers, AHU, FCU, CRAC units, CW Pumps, plumbing pumps, Valves, Air Filtration Products ,Ventilation Fans, dehumidifiers &amp; Ecology units.",
+                            "subsidiary_button": {
+                                "url": "/subsidiary/jersey-engineering/",
+                                "text": "Explore",
+                                "target": ""
+                            }
+                        },
+                        {
+                            "color": "Color Section 2",
+                            "head": "HVAC/ Building Insulation Products",
+                            "description": "A one stop solution provider with our vast range of Insulation products  catering to a variety of needs from ducting, piping , buildings to heating and even furnace applications including adhesives sealants &amp; accessories.",
+                            "subsidiary_button": {
+                                "url": "/subsidiary/qatar-insulation/",
+                                "text": "Explore",
+                                "target": ""
+                            }
+                        },
+                        {
+                            "color": "Color Section 3",
+                            "head": "Air Distribution Products &amp; Life Safety Dampers",
+                            "description": "Manufacturers of HVAC air outlets, Dampers, UL certified motorized Fire/Smoke dampers, AHRI certified VAV, Sound attenuators.",
+                            "subsidiary_button": {
+                                "url": "/subsidiary/jersey-manufacturing/",
+                                "text": "Explore",
+                                "target": ""
+                            }
+                        },
+                        {
+                            "color": "Color Section 4",
+                            "head": "Fire Fighting &amp; Fire Alarm Systems",
+                            "description": "Complete Fire Fighting/Fire alarm building safety system &amp; solutions provider.",
+                            "subsidiary_button": {
+                                "url": "/subsidiary/firelink/",
+                                "text": "Explore",
+                                "target": ""
+                            }
+                        },
+                        {
+                            "color": "Color Section 3",
+                            "head": "Control Panels &amp; Industrial Automation ",
+                            "description": "A leader in Automation, Control panel, Energy management &amp; Supplier of Insulation and Accessories for Oil &amp; Gas industries in Qatar.",
+                            "subsidiary_button": {
+                                "url": "/subsidiary/jersey-industrial/",
+                                "text": "Explore",
+                                "target": ""
+                            }
+                        },
+                        {
+                            "color": "",
+                            "head": "Glass Processing",
+                            "description": "Hi-tech glass processer of a wide range of world leading float glass producers  with state art automated machinery &amp;  infrastructure to handle large projects.",
+                            "subsidiary_button": {
+                                "url": "/subsidiary/jersey-glass/",
+                                "text": "Explore",
+                                "target": ""
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "url": "home_about",
+                "data": {
+                    "maintitle": "Success <span>Together</span>",
+                    "subtitle": "<span>النجـــــــــــــاح</span> مــعـــــــــــا",
+                    "description": "Jersey Group has come of age as a tall leader in the trading, contracting, manufacturing and service industry in Qatar. With its 600-strong experienced and efficient workforce, Jersey Group has proved to be a dependable business performer, reporting year-on-year growth of 20 percent and upwards as well as posting big new business wins. ",
+                    "link": {
+                        "url": "/about",
+                        "text": "Explore",
+                        "target": ""
+                    },
+                    "count": "25",
+                    "poster": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/doha_poster.jpg",
+                    "poster_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/doha_poster.jpg.webp",
+                    "video": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Doha1.M4v-1-1.m4v",
+                    "years": "SINCE 1995",
+                    "years_title": "YEARS IN INDUSTRY",
+                    "count_number": [
+                        {
+                            "count": "500+",
+                            "Title": "EMPLOYEES"
+                        },
+                        {
+                            "count": "50+",
+                            "Title": "GLOBAL BRANDS"
+                        },
+                        {
+                            "count": "07+",
+                            "Title": "BUSINESS UNITS"
+                        }
+                    ]
+                }
+            },
+            {
+                "url": "home_video",
+                "data": {
+                    "bg_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/Group_62146@2x1.png",
+                    "bg_image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/Group_62146@2x1.png.webp",
+                    "maintitle": "Our Rich Legacy",
+                    "play_btn_text": "Play",
+                    "bg_video_play": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/jerseygroup-final_2.mp4"
+                }
+            },
+            {
+                "url": "home_subsidiaries",
+                "data": {
+                    "title": "Our Subsidiaries",
+                    "subsidiary_slider": [
+                        {
+                            "title": "Jersey Engineering & Trading",
+                            "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-61536.svg",
+                            "short": "JET",
+                            "description": "\"Engineering trust\"\r\n",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/JET.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/JET.png.webp",
+                            "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Logo-01.svg",
+                            "link": "/subsidiary/jersey-engineering"
+                        },
+                        {
+                            "title": "Qatar insulation Company ",
+                            "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-61468.svg",
+                            "short": "QIC",
+                            "description": "“Complete Insulation Solutions provider”",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/QIC.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/QIC.png.webp",
+                            "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Logo-00-1.svg",
+                            "link": "/subsidiary/qatar-insulation"
+                        },
+                        {
+                            "title": "Firelink ",
+                            "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-61469.svg",
+                            "short": "FLK",
+                            "description": "“Total Fire Solutions Provider”",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/FLK.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/FLK.png.webp",
+                            "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Logo-06-1.svg",
+                            "link": "/subsidiary/firelink"
+                        },
+                        {
+                            "title": "Jersey Manufacturing",
+                            "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-61471.svg",
+                            "short": "JMC",
+                            "description": "“Engineered Excellence”",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/JMC.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/JMC.png.webp",
+                            "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Logo-02.svg",
+                            "link": "/subsidiary/jersey-manufacturing"
+                        },
+                        {
+                            "title": "Jersey Glass",
+                            "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-61472-1.svg",
+                            "short": "JGF",
+                            "description": "“Without Glass the world ends in a wall”",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/JGF-1.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/JGF-1.png.webp",
+                            "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Logo-04.svg",
+                            "link": "/subsidiary/jersey-glass"
+                        },
+                        {
+                            "title": " Jersey Industrial",
+                            "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-61473.svg",
+                            "short": "JIC",
+                            "description": "“Leading by innovation”",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/JIT.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/JIT.png.webp",
+                            "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Logo-03.svg",
+                            "link": "/subsidiary/jersey-industrial"
+                        },
+                        {
+                            "title": "Jersey Services",
+                            "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-61470.svg",
+                            "short": " JSC",
+                            "description": "“Synergy Simplified”",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JSC-1.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JSC-1.png.webp",
+                            "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Logo-05.svg",
+                            "link": "/subsidiary/jersey-services/"
+                        }
+                    ],
+                    "happy_clients": {
+                        "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/happy-clients.png",
+                        "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/happy-clients.png.webp",
+                        "title": "Our Clients",
+                        "images": [
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/properties.webp",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/properties.webp.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/udc.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/udc.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/eng-office.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/eng-office.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/katara.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/katara.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo_midmac.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo_midmac.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/takeef.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/takeef.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Trags_Engg.jpg",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Trags_Engg.jpg.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Voltas.webp",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Voltas.webp.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/HBK.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/HBK.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/UCC.jpg",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/UCC.jpg.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/sdfs1.jpg",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/sdfs1.jpg.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/LT.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/LT.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo_galfar.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo_galfar.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/blue-star-limited-logo-vector.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/blue-star-limited-logo-vector.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/1519908679710.jpg",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/1519908679710.jpg.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/professional_allu_logo-1-1.jpg",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/professional_allu_logo-1-1.jpg.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Leonardo.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Leonardo.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/al-jaber.webp",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/al-jaber.webp.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/GET-Logo-Desktop-Dark.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/GET-Logo-Desktop-Dark.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Siemens-logo.svg.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/GET-Logo-Desktop-Dark.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo3.webp",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo3.webp.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/1570129_logo_1503512576_n.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/1570129_logo_1503512576_n.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo1.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo1.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/ArabianMEP-logo.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/ArabianMEP-logo.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo-1.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo-1.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo-1-1.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/logo-1-1.png.webp"
+                            },
+                            {
+                                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/MicrosoftTeams-image-1-1.png",
+                                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/MicrosoftTeams-image-1-1.png.webp"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "url": "home_projects",
+                "data": {
+                    "project_title": "Our Projects",
+                    "description": "Capability to offer alternate sustainable solutions as per project demands in the respective business segments.",
+                    "link": "/portfolio",
+                    "link_text": "Explore All Projects",
+                    "projects": [
+                        {
+                            "id": 459,
+                            "link": "/portfolio/al-wakrah-stadium-2",
+                            "title": "Al Janoub stadium, Wakrah",
+                            "content": "",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Al-Wakrah-Stadium_2_web.gif",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Al-Wakrah-Stadium_2_web.gif.webp",
+                            "specifications": [
+                                {
+                                    "title": "Insulations",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                                    "description": "Supplied various Insulation products",
+                                    "top": "39.33%",
+                                    "left": "15.8%"
+                                },
+                                {
+                                    "title": "Air distribution",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                                    "description": "Supplied various air distribution products.",
+                                    "top": "22.62%",
+                                    "left": "43.56%"
+                                },
+                                {
+                                    "title": "Fire alarm ",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                                    "description": "Supplied various fire alarm & fire fighting products",
+                                    "top": "63.06%",
+                                    "left": "36.71%"
+                                }
+                            ],
+                            "place": "Doha, Qatar",
+                            "date": "2022-10-30 05:49:25"
+                        },
+                        {
+                            "id": 455,
+                            "link": "/portfolio/al-bayt-stadium",
+                            "title": "Al Bayt Stadium",
+                            "content": "",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/2014_06_21_AlBaytStadium_AlKhorCity_02-scaled-1.jpg",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/2014_06_21_AlBaytStadium_AlKhorCity_02-scaled-1.jpg.webp",
+                            "specifications": [
+                                {
+                                    "title": "Insulations",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                                    "description": "Supplied various Insulation products",
+                                    "top": "39.33%",
+                                    "left": "15.8%"
+                                },
+                                {
+                                    "title": "Air distribution",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                                    "description": "Supplied various air distribution products",
+                                    "top": "22.62%",
+                                    "left": "43.56%"
+                                },
+                                {
+                                    "title": "Fire alarm ",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                                    "description": "Supplied various fire alarm & fire fighting products",
+                                    "top": "63.06%",
+                                    "left": "36.71%"
+                                }
+                            ],
+                            "place": "Doha, Qatar",
+                            "date": "2022-10-30 05:47:05"
+                        },
+                        {
+                            "id": 453,
+                            "link": "/portfolio/khalifa-stadium-energy-center",
+                            "title": "Khalifa Stadium - Energy Center",
+                            "content": "",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/c8d18732f22941459510def5fb266789.jpeg",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/c8d18732f22941459510def5fb266789.jpeg.webp",
+                            "specifications": [
+                                {
+                                    "title": "Insulations",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                                    "description": "Supplied various Insulation products",
+                                    "top": "39.33%",
+                                    "left": "15.8%"
+                                },
+                                {
+                                    "title": "Air distribution",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                                    "description": "Supplied various air distribution products",
+                                    "top": "22.62%",
+                                    "left": "43.56%"
+                                },
+                                {
+                                    "title": "Fire alarm ",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                                    "description": "Supplied various fire alarm & fire fighting products",
+                                    "top": "63.06%",
+                                    "left": "36.71%"
+                                }
+                            ],
+                            "place": "Doha, Qatar",
+                            "date": "2022-10-30 05:44:10"
+                        },
+                        {
+                            "id": 2434,
+                            "link": "/portfolio/hia-central-concourse",
+                            "title": "HIA Central Concourse",
+                            "content": "",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/HIA_Garden.jpg",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/HIA_Garden.jpg.webp",
+                            "specifications": [
+                                {
+                                    "title": "BMS Service and Installation",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/close-up-of-control-panel-in-industrial-production-2022-02-08-02-34-26-utc-1.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/close-up-of-control-panel-in-industrial-production-2022-02-08-02-34-26-utc-1.jpg.webp",
+                                    "description": "BMS Service and Installation\r\n",
+                                    "top": "39.33%",
+                                    "left": "15.8%"
+                                }
+                            ],
+                            "place": "Hamad International Airport, Doha, Qatar",
+                            "date": "2022-12-01 08:11:36"
+                        },
+                        {
+                            "id": 2438,
+                            "link": "/portfolio/lusail-plaza-tower",
+                            "title": "Lusail Plaza Tower",
+                            "content": "",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/3231235456.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/3231235456.png.webp",
+                            "specifications": [
+                                {
+                                    "title": "Building Panels",
+                                    "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/integrated-control-panel.jpg",
+                                    "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/integrated-control-panel.jpg.webp",
+                                    "description": "Building Panels",
+                                    "top": "39.33%",
+                                    "left": "15.8%"
+                                }
+                            ],
+                            "place": "Lusail, Doha, Qatar",
+                            "date": "2022-12-01 08:19:01"
+                        }
+                    ]
+                }
+            },
+            {
+                "url": "home_brands_partners",
+                "data": {
+                    "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/bg-copy.png",
+                    "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/bg-copy.png.webp",
+                    "count": "50+",
+                    "count_text": "BRANDS COLLABORATE WITH US",
+                    "title": "Brands & Partners",
+                    "description": "Partnerships with leading Brands of International repute.",
+                    "logos": [
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-3.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-3.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-4.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-4.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/42434423.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/42434423.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-15.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-15.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-1-1.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-1-1.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-48.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-48.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-33.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-33.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-28.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-28.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-52.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-52.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-63.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-63.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-61.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-61.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-5.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-5.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-6.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-6.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-16.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-16.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-17.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-17.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-18.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-18.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-19.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-19.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-50.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-50.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-49.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-49.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-32.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-32.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-35.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-35.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-51.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-51.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-53.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-53.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-9.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-9.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-11.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-11.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-7.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-7.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-8.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-8.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-64.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-64.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-2-1.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-2-1.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-58.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-58.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-67.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-67.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-46.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-46.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-39.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-39.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-27.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-27.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-21.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-21.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-68.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-68.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-20.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-20.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-14.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-14.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-12.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-12.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-10.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-10.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-43.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-43.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-42.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-42.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-41.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-41.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-66.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-66.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-65.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-65.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-60.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-60.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-59.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-59.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-55.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-55.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-54.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-54.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-44.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-44.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-47.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-47.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-69.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-69.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-45.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-45.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-38.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-38.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-37.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-37.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-36.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-36.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-24.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-24.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-29.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-29.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-26.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-26.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-31.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-31.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-22.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-22.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-25.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-25.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-30.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-30.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-62.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-62.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-56.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-56.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-57.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-57.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-34.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-34.png.webp"
+                        },
+                        {
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-70.png",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Group-70.png.webp"
+                        }
+                    ]
+                }
+            },
+            {
+                "url": "home_articles",
+                "data": {
+                    "title": "Recent Updates",
+                    "link": {
+                        "url": "/news",
+                        "text": "Explore All",
+                        "target": ""
+                    },
+                    "articles": [
+                        {
+                            "id": 2289,
+                            "link": "/news/jersey-engineering-showroom",
+                            "title": "Visit our new showroom",
+                            "content": "With the increasing number of new customers and the growing response to our web and app based E-commerce Platform <a href=\"http://jerseymep.com\">jerseymep.com</a> exclusively for HVAC & MEP products in Qatar; we created a unique themed showroom & display of select MEP products for customers to better understand our overall business scope complimented with a special walk in experience and also purchase our products Online as desired.<br>\r\n\r\n<button> <a href=\"https://goo.gl/maps/uHuSLVVPCaUw3Hz67\" target=\"_blank\" rel=\"noopener\">Get direction</a> </button>",
+                            "service_short": "JET",
+                            "service_color": "#f39200",
+                            "service_name": "Jersey Engineering",
+                            "date": "Oct 10 2022",
+                            "categories": "News",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg.webp"
+                        },
+                        {
+                            "id": 2286,
+                            "link": "/news/jersey-integrated-company",
+                            "title": "Exploring new horizons (KSA)",
+                            "content": "<blockquote>In line with our expansion plans and exports to new markets we have recently set up a new office in Saudi Arabia .</blockquote>\r\nThis initiative has been carefully thought of and implemented with a view to establish our presence in a growing environment and also participate in their new projects planned for the coming years. We have identified many products like Insulation ,Valves , Air distribution products , Engineering services and such others to begin with . Our active presence in Riyadh with ample support from our HO in Qatar will certainly give us an edge owing to the wide range of leading brands and products that we can offer.",
+                            "service_short": "JIT",
+                            "service_color": "#f39200",
+                            "service_name": "Jersey Integrated Company",
+                            "date": "Nov 01 2022",
+                            "categories": "News",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg.webp"
+                        },
+                        {
+                            "id": 2284,
+                            "link": "/news/jersey-industrial-a-leader-in-industrial-automation-in-qatar",
+                            "title": "Extending reach in to Oil & Gas Sector",
+                            "content": "Since our inception as a trading house for engineering spares, Jersey Industrial Company has upgraded itself, driven by zeal & passion into becoming one of the region’s leading engineering company for MCC panels , Electrical Switch-gears & retroﬁt solutions. Our wider scope includes Automation Engineering, Control panel design & assembly, Industrial Automation, AMC’s , Testing and Commissioning of Automation panels, Switch-gears, MCC & Smoke Override Panels.\r\n<blockquote>Jersey Industrial also has recently ventured into the Oil & Gas industry for supplying Insulation material, Valves and related accessories for these specific applications.</blockquote>",
+                            "service_short": "JIC",
+                            "service_color": "#28aae1",
+                            "service_name": "Jersey Industrial Company",
+                            "date": "Oct 10 2022",
+                            "categories": "News",
+                            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23453.jpg",
+                            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23453.jpg.webp"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "menu": {
+        "header": {
+            "preheader_alert": {
+                "preheader_alert": "Alert !!! “Recruitment Scam Alert”"
+            },
+            "logo": {
+                "logo_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/header-logo-jersey.svg"
+            },
+            "call_btn": {
+                "text": "Arrange a Call",
+                "phone_number": "+974 4492 5077"
+            },
+            "social": [
+                {
+                    "social_media_name": "Facebook",
+                    "social_media_icons": "icon-facebook",
+                    "social_media_url": "https://www.facebook.com/jerseygroupqa"
+                },
+                {
+                    "social_media_name": "Instagram",
+                    "social_media_icons": "icon-instagram",
+                    "social_media_url": "https://www.instagram.com/jerseygroupqa/"
+                },
+                {
+                    "social_media_name": "LinkedIn",
+                    "social_media_icons": "icon-linkedin",
+                    "social_media_url": "https://www.linkedin.com/company/jerseygroup/"
+                },
+                {
+                    "social_media_name": "Youtube",
+                    "social_media_icons": "icon-youtube",
+                    "social_media_url": "https://www.youtube.com/channel/UCMMrO0eOlk7HODLTiMZ3fZQ/"
+                }
+            ],
+            "menu": [
+                {
+                    "title": "Home",
+                    "link": "/",
+                    "sub_menu": []
+                },
+                {
+                    "title": "About Us",
+                    "link": "/about",
+                    "sub_menu": []
+                },
+                {
+                    "title": "Subsidiaries",
+                    "link": "/subsidiaries",
+                    "sub_menu": {
+                        "heading": "Overview",
+                        "link": "/subsidiaries",
+                        "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Jersey-Group-Favicon-color.jpg",
+                        "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Jersey-Group-Favicon-color.jpg.webp",
+                        "content": [
+                            {
+                                "title": "Trading",
+                                "data": [
+                                    {
+                                        "title": "Qatar Insulation",
+                                        "link": "/subsidiary/qatar-insulation",
+                                        "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/QIC.svg",
+                                        "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/QIC.svg.webp",
+                                        "menu_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23444.jpg",
+                                        "menu_image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23444.jpg.webp"
+                                    },
+                                    {
+                                        "title": "Jersey Engineering",
+                                        "link": "/subsidiary/jersey-engineering",
+                                        "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JET.svg",
+                                        "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JET.svg.webp",
+                                        "menu_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23449.jpg",
+                                        "menu_image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23449.jpg.webp"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Manufacturing",
+                                "data": [
+                                    {
+                                        "title": "Jersey Manufacturing",
+                                        "link": "/subsidiary/jersey-manufacturing",
+                                        "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JMC.svg",
+                                        "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JMC.svg.webp",
+                                        "menu_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23445.jpg",
+                                        "menu_image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23445.jpg.webp"
+                                    },
+                                    {
+                                        "title": "Jersey Glass",
+                                        "link": "/subsidiary/jersey-glass",
+                                        "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JGF.svg",
+                                        "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JGF.svg.webp",
+                                        "menu_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23446.jpg",
+                                        "menu_image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23446.jpg.webp"
+                                    },
+                                    {
+                                        "title": "Jersey Industrial",
+                                        "link": "/subsidiary/jersey-industrial",
+                                        "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JIC.svg",
+                                        "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JIC.svg.webp",
+                                        "menu_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23447.jpg",
+                                        "menu_image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23447.jpg.webp"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Contracting",
+                                "data": [
+                                    {
+                                        "title": "Firelink",
+                                        "link": "/subsidiary/firelink",
+                                        "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/FLK.svg",
+                                        "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/FLK.svg.webp",
+                                        "menu_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23448.jpg",
+                                        "menu_image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23448.jpg.webp"
+                                    }
+                                ]
+                            },
+                            {
+                                "title": "Services",
+                                "data": [
+                                    {
+                                        "title": "Jersey Services",
+                                        "link": "/subsidiary/jersey-services",
+                                        "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JSD.svg",
+                                        "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JSD.svg.webp",
+                                        "menu_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23450.jpg",
+                                        "menu_image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23450.jpg.webp"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Portfolio",
+                    "link": "/portfolio",
+                    "sub_menu": []
+                },
+                {
+                    "title": "Media Resources",
+                    "link": "/media",
+                    "sub_menu": []
+                },
+                {
+                    "title": "Newsroom",
+                    "link": "/news",
+                    "sub_menu": []
+                },
+                {
+                    "title": "Contact Us",
+                    "link": "/contact",
+                    "sub_menu": []
+                }
+            ],
+            "susidiary_logos": [
+                {
+                    "slug": "/subsidiary/qatar-insulation",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/QIC.svg",
+                    "logo_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/QIC.svg.webp"
+                },
+                {
+                    "slug": "/subsidiary/jersey-engineering",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JET.svg",
+                    "logo_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JET.svg.webp"
+                },
+                {
+                    "slug": "/subsidiary/jersey-manufacturing",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JMC.svg",
+                    "logo_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JMC.svg.webp"
+                },
+                {
+                    "slug": "/subsidiary/jersey-glass",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JGF.svg",
+                    "logo_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JGF.svg.webp"
+                },
+                {
+                    "slug": "/subsidiary/jersey-industrial",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JIC.svg",
+                    "logo_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JIC.svg.webp"
+                },
+                {
+                    "slug": "/subsidiary/firelink",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/FLK.svg",
+                    "logo_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/FLK.svg.webp"
+                },
+                {
+                    "slug": "/subsidiary/jersey-services",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JSD.svg",
+                    "logo_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JSD.svg.webp"
+                }
+            ]
+        },
+        "footer": {
+            "footer_logo": {
+                "footer_logo_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/footer-arabic-logo.svg"
+            },
+            "subs_logos": [
+                {
+                    "title": "Qatar Insulation",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/qatar-insulation-footer.svg",
+                    "url": "/subsidiary/qatar-insulation"
+                },
+                {
+                    "title": "Jersey Engineering",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-eng-footer.svg",
+                    "url": "/subsidiary/jersey-engineering"
+                },
+                {
+                    "title": "Jersey Manufacturing",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-manufacturing-footer.svg",
+                    "url": "/subsidiary/jersey-manufacturing"
+                },
+                {
+                    "title": "Jersey Industrial",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-industrial-footer.svg",
+                    "url": "/subsidiary/jersey-industrial"
+                },
+                {
+                    "title": "Jersey Glass",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-glass-footer.svg",
+                    "url": "/subsidiary/jersey-glass"
+                },
+                {
+                    "title": "Firelink",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-firelink-footer.svg",
+                    "url": "/subsidiary/firelink"
+                },
+                {
+                    "title": "Jersey Services",
+                    "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-services-footer.svg",
+                    "url": "/subsidiary/jersey-services/"
+                }
+            ],
+            "newsletter": {
+                "title": "Subscribe our Newsletter",
+                "success_message": "Congratulations, You're Now on the list!"
+            },
+            "footer_menu": [
+                {
+                    "menu_title": "QUICK LINKS",
+                    "menu": [
+                        {
+                            "title": "Home",
+                            "url": "/"
+                        },
+                        {
+                            "title": "About Us",
+                            "url": "/about"
+                        },
+                        {
+                            "title": "Portfolio",
+                            "url": "/portfolio"
+                        },
+                        {
+                            "title": "Newsroom",
+                            "url": "/news"
+                        },
+                        {
+                            "title": "Careers",
+                            "url": "/careers"
+                        },
+                        {
+                            "title": "Contact",
+                            "url": "/contact"
+                        }
+                    ]
+                },
+                {
+                    "menu_title": "SUBSIDIARIES",
+                    "menu": [
+                        {
+                            "title": "Jersey Engineering",
+                            "url": "/subsidiary/jersey-engineering"
+                        },
+                        {
+                            "title": "Qatar Insulation",
+                            "url": "/subsidiary/qatar-insulation"
+                        },
+                        {
+                            "title": "Firelink",
+                            "url": "/subsidiary/firelink"
+                        },
+                        {
+                            "title": "Jersey Manufacturing",
+                            "url": "/subsidiary/jersey-manufacturing"
+                        },
+                        {
+                            "title": "Jersey Glass",
+                            "url": "/subsidiary/jersey-glass"
+                        },
+                        {
+                            "title": "Jersey Industrial",
+                            "url": "/subsidiary/jersey-industrial"
+                        },
+                        {
+                            "title": "Jersey Services",
+                            "url": "/subsidiary/jersey-services"
+                        }
+                    ]
+                },
+                {
+                    "menu_title": "TERMS OF SERVICE",
+                    "menu": [
+                        {
+                            "title": "Terms & Conditions",
+                            "url": "/terms-condition"
+                        },
+                        {
+                            "title": "Privacy Policy",
+                            "url": "/privacy-policy"
+                        },
+                        {
+                            "title": "Cookie Policy",
+                            "url": "/cookie-policy"
+                        }
+                    ]
+                },
+                {
+                    "menu_title": "DOWNLOAD",
+                    "menu": [
+                        {
+                            "title": "Jersey Group Brochure",
+                            "url": "/media"
+                        }
+                    ]
+                },
+                {
+                    "menu_title": "SUPPORT",
+                    "menu": [
+                        {
+                            "title": "Contact",
+                            "url": "/contact"
+                        },
+                        {
+                            "title": "Report a Problem",
+                            "url": "/report-problem"
+                        }
+                    ]
+                }
+            ],
+            "contact": {
+                "title": "CONTACT",
+                "items": [
+                    {
+                        "title": "Address",
+                        "value": "P O Box No. 7922, 1st Floor, GSSG Building, Salwa Road, Doha - Qatar"
+                    },
+                    {
+                        "title": "Phone",
+                        "value": "+974 4492 5077"
+                    },
+                    {
+                        "title": "Fax",
+                        "value": "+974 4492 5088"
+                    }
+                ]
+            },
+            "copyright_text": {
+                "copyright": "Copyright 2022 Jersey Group. All rights reserved."
+            },
+            "social_media_list": [
+                {
+                    "social_media_name": "Facebook",
+                    "social_media_icons": "icon-facebook",
+                    "social_media_url": "https://www.facebook.com/jerseygroupqa"
+                },
+                {
+                    "social_media_name": "Instagram",
+                    "social_media_icons": "icon-instagram",
+                    "social_media_url": "https://www.instagram.com/jerseygroupqa/"
+                },
+                {
+                    "social_media_name": "LinkedIn",
+                    "social_media_icons": "icon-linkedin",
+                    "social_media_url": "https://www.linkedin.com/company/jerseygroup/"
+                },
+                {
+                    "social_media_name": "Youtube",
+                    "social_media_icons": "icon-youtube",
+                    "social_media_url": "https://www.youtube.com/channel/UCMMrO0eOlk7HODLTiMZ3fZQ/"
+                }
+            ]
+        }
+    }
+}

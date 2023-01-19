@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #ffffff;
+}
+
+.brand {
+ color: #264653;
+ text-decoration: none;
+ font-weight: 800;
+ font-size: 30px;
+}
+
+.navlinks {
+  text-decoration: none;
+  text-align: left;
+  font: normal normal medium 16px/45px Inter;
+  letter-spacing: 0px;
+  color: #242424;
+  opacity: 1;
+  padding-right: 10%;
+  font-weight: 500;
+}
+
+.navlinks:hover {
+  color: black;
+  text-shadow: 0px 1px #777;
+}
+
+.logout {
+  color: red;
+  background-color: transparent;
+  border: none;
+}
+.username {
+  padding-top: 2%;
+  font-weight: 500;
+  color: #4b90f3;
+}

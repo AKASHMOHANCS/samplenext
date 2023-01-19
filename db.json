@@ -1,0 +1,304 @@
+{
+  "*": {
+    "status": "Not Found"
+  },
+  "data": {
+    "seo": {
+      "metatitle": "Next js",
+      "metadescription": "Next js"
+    },
+    "widgets": [
+      {
+        "url": "home_banner",
+        "data": {
+          "title": "Home banner",
+          "link": {
+            "url": "/about",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      },
+      {
+        "url": "home_content",
+        "data": {
+          "title": "Home page content",
+          "link": {
+            "url": "/about",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "about": {
+    "seo": {
+      "metatitle": "about",
+      "metadescription": "about description"
+    },
+    "widgets": [
+      {
+        "url": "about",
+        "data": {
+          "title": "about page",
+          "link": {
+            "url": "/about",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "contact": {
+    "seo": {
+      "metatitle": "contact",
+      "metadescription": "contact description"
+    },
+    "widgets": [
+      {
+        "url": "contact",
+        "data": {
+          "title": "contact page",
+          "link": {
+            "url": "/contact",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "portfolio": {
+    "seo": {
+      "metatitle": "portfolio",
+      "metadescription": "portfolio description"
+    },
+    "widgets": [
+      {
+        "url": "portfolio",
+        "data": {
+          "title": "portfolio page",
+          "link": {
+            "url": "/portfolio",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "menu": {
+    "header": {
+      "preheader_alert": {
+        "preheader_alert": "Alert !!! “Recruitment Scam Alert”"
+      },
+      "logo": {
+        "logo_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/08/header-logo-jersey.svg"
+      },
+      "call_btn": {
+        "text": "Arrange a Call",
+        "phone_number": "+974 4492 5077"
+      },
+      "social": [
+        {
+          "social_media_name": "Facebook",
+          "social_media_icons": "icon-facebook",
+          "social_media_url": "https://www.facebook.com/jerseygroupqa"
+        },
+        {
+          "social_media_name": "Instagram",
+          "social_media_icons": "icon-instagram",
+          "social_media_url": "https://www.instagram.com/jerseygroupqa/"
+        },
+        {
+          "social_media_name": "LinkedIn",
+          "social_media_icons": "icon-linkedin",
+          "social_media_url": "https://www.linkedin.com/company/jerseygroup/"
+        },
+        {
+          "social_media_name": "Youtube",
+          "social_media_icons": "icon-youtube",
+          "social_media_url": "https://www.youtube.com/channel/UCMMrO0eOlk7HODLTiMZ3fZQ/"
+        }
+      ],
+      "menu": [
+        {
+          "title": "Home",
+          "link": "/",
+          "sub_menu": []
+        },
+        {
+          "title": "About Us",
+          "link": "/about",
+          "sub_menu": []
+        },
+
+        {
+          "title": "Portfolio",
+          "link": "/portfolio",
+          "sub_menu": []
+        },
+
+        {
+          "title": "Contact Us",
+          "link": "/contact",
+          "sub_menu": []
+        }
+      ]
+    },
+    "footer": {
+      "footer_logo": {
+        "footer_logo_image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/footer-arabic-logo.svg"
+      },
+      "subs_logos": [
+        {
+          "title": "Qatar Insulation",
+          "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/qatar-insulation-footer.svg",
+          "url": "/subsidiary/qatar-insulation"
+        },
+        {
+          "title": "Jersey Engineering",
+          "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-eng-footer.svg",
+          "url": "/subsidiary/jersey-engineering"
+        },
+        {
+          "title": "Jersey Manufacturing",
+          "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-manufacturing-footer.svg",
+          "url": "/subsidiary/jersey-manufacturing"
+        },
+        {
+          "title": "Jersey Industrial",
+          "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-industrial-footer.svg",
+          "url": "/subsidiary/jersey-industrial"
+        },
+        {
+          "title": "Jersey Glass",
+          "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-glass-footer.svg",
+          "url": "/subsidiary/jersey-glass"
+        },
+        {
+          "title": "Firelink",
+          "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-firelink-footer.svg",
+          "url": "/subsidiary/firelink"
+        },
+        {
+          "title": "Jersey Services",
+          "logo": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/jersey-services-footer.svg",
+          "url": "/subsidiary/jersey-services/"
+        }
+      ],
+      "newsletter": {
+        "title": "Subscribe our Newsletter",
+        "success_message": "Congratulations, You're Now on the list!"
+      },
+      "footer_menu": [
+        {
+          "menu_title": "QUICK LINKS",
+          "menu": [
+            {
+              "title": "Home",
+              "url": "/"
+            },
+            {
+              "title": "About Us",
+              "url": "/about"
+            },
+            {
+              "title": "Portfolio",
+              "url": "/portfolio"
+            },
+
+            {
+              "title": "Contact",
+              "url": "/contact"
+            }
+          ]
+        },
+
+        {
+          "menu_title": "TERMS OF SERVICE",
+          "menu": [
+            {
+              "title": "Terms & Conditions",
+              "url": "/terms-condition"
+            },
+            {
+              "title": "Privacy Policy",
+              "url": "/privacy-policy"
+            },
+            {
+              "title": "Cookie Policy",
+              "url": "/cookie-policy"
+            }
+          ]
+        },
+        {
+          "menu_title": "DOWNLOAD",
+          "menu": [
+            {
+              "title": "Jersey Group Brochure",
+              "url": "/media"
+            }
+          ]
+        },
+        {
+          "menu_title": "SUPPORT",
+          "menu": [
+            {
+              "title": "Contact",
+              "url": "/contact"
+            },
+            {
+              "title": "Report a Problem",
+              "url": "/report-problem"
+            }
+          ]
+        }
+      ],
+      "contact": {
+        "title": "CONTACT",
+        "items": [
+          {
+            "title": "Address",
+            "value": "P O Box No. 7922, 1st Floor, GSSG Building, Salwa Road, Doha - Qatar"
+          },
+          {
+            "title": "Phone",
+            "value": "+974 4492 5077"
+          },
+          {
+            "title": "Fax",
+            "value": "+974 4492 5088"
+          }
+        ]
+      },
+      "copyright_text": {
+        "copyright": "Copyright 2022 Jersey Group. All rights reserved."
+      },
+      "social_media_list": [
+        {
+          "social_media_name": "Facebook",
+          "social_media_icons": "icon-facebook",
+          "social_media_url": "https://www.facebook.com/jerseygroupqa"
+        },
+        {
+          "social_media_name": "Instagram",
+          "social_media_icons": "icon-instagram",
+          "social_media_url": "https://www.instagram.com/jerseygroupqa/"
+        },
+        {
+          "social_media_name": "LinkedIn",
+          "social_media_icons": "icon-linkedin",
+          "social_media_url": "https://www.linkedin.com/company/jerseygroup/"
+        },
+        {
+          "social_media_name": "Youtube",
+          "social_media_icons": "icon-youtube",
+          "social_media_url": "https://www.youtube.com/channel/UCMMrO0eOlk7HODLTiMZ3fZQ/"
+        }
+      ]
+    }
+  }
+}

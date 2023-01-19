@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+
+.jg_notfound {
+    min-height: calc(100vh - 80px);
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+
+    @include min(992) {
+        min-height: calc(100vh - 107px);
+    }
+
+    h2 {
+        font-weight: 600;
+        font-size: 90px;
+        color: #f39200;
+        margin-bottom: 0;
+
+        @include min(992) {
+            font-size: size(225);
+
+        }
+
+    }
+
+    h4 {
+        font-weight: 500;
+        font-size: 24px;
+        color: #003d72;
+        margin-bottom: 15px;
+
+        @include min(992) {
+            font-size: size(47);
+            margin-bottom: size(16);
+        }
+
+    }
+
+    p {
+        @include lineHeight(20, 28);
+        font-size: 15px;
+        color: #012d53;
+        margin-bottom: 30px;
+
+        @include min(992) {
+            font-size: size(20);
+            margin-bottom: size(56);
+        }
+    }
+}
