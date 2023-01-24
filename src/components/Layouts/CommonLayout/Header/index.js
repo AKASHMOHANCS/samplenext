@@ -5,8 +5,33 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Style from "./header.module.scss";
+import { signOut, signIn, useSession } from "next-auth/react";
+import { useRouter } from "next/router";
+import { useDispatch, useSelector } from "react-redux";
+import { logout, setIsLoggedIn } from "@/Store/authslice";
 
 const Header = ({ props }) => {
+  const { isLoggedIn } = useSelector((state) => state.auth);
+
+  const { data: session, status } = useSession();
+
+  const dispatch = useDispatch();
+
+  const router = useRouter();
+
+  const handleLogout = () => {
+    if (window.confirm("Do you really want to leave?")) {
+      try {
+        
+        localStorage.removeItem("user");
+        dispatch(setIsLoggedIn());
+   
+      } catch (error) {
+        // An error happened.
+      }
+    }
+  };
+
   return (
     <div className={Style.container}>
       <Navbar collapseOnSelect expand="lg" className={`${Style.navbar}`}>
@@ -20,7 +45,11 @@ const Header = ({ props }) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" />
 
-          <nav className="d-flex justify-content-end w-75">
+          <nav
+            className={`d-flex justify-content-between w-75 ${
+              status === "loading" ? Style.loading : Style.loaded
+            } `}
+          >
             {props?.menu?.map((values, index) => {
               return (
                 <Link
@@ -34,36 +63,22 @@ const Header = ({ props }) => {
               );
             })}
 
-            {/* {!isLoggedIn ? (
-                <>
-                  <Link
-                   // style={navLinkStyles}
-                    href={"Register"}
-                    className={Style.navlinks}
-                  >
-                    Register
-                  </Link>
-                  <Link
-                    //style={navLinkStyles}
-                    href={"login"}
-                    className={Style.navlinks}
-                  >
-                    Login
-                  </Link>
-                </>
-              ) : null}
-
-              {isLoggedIn ? (
-                <>
-                  <span className={Style.username}> Welcome {username} !</span>
-                  <button
-                    className={` ${Style.logout}`}
-                    onClick={() => handleLogout()}
-                  >
-                    Logout
-                  </button>
-                </>
-              ) : null} */}
+            {!isLoggedIn && (
+              <button
+                className={Style.navlinks}
+                onClick={() => router.push("login")}
+              >
+                Login
+              </button>
+            )}
+            {isLoggedIn && (
+              <button
+                className={` ${Style.logout}`}
+                onClick={() => handleLogout()}
+              >
+                Logout
+              </button>
+            )}
           </nav>
         </Navbar.Collapse>
       </Navbar>

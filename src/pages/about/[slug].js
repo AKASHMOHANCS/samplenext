@@ -6,7 +6,7 @@ import Head from "next/head";
 import React from "react";
 
 const AboutDetails = (data) => {
-  console.log(data, "about details===");
+
   return (
     <>
       <Head>

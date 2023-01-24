@@ -1,11 +1,15 @@
 //import '@/styles/globals.css'
 import { useEffect, useState } from "react";
+import { SessionProvider } from "next-auth/react";
 import "../styles/common.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Assets from "@/components/Layouts/CommonLayout/assets";
 import Image from "next/image";
+import { Provider } from "react-redux";
+import store, { wrapper } from "../Store/store";
 
-function App({ Component, pageProps }) {
+function App({ Component, pageProps,session }) {
+
   const [loading, setLoading] = useState(true);
   const [preloaderShow, setPreloaderShow] = useState(1);
 
@@ -41,7 +45,13 @@ function App({ Component, pageProps }) {
           />
         </div>
       )}
-      {preloaderShow == "0" && <Component {...pageProps} />}
+      {preloaderShow == "0" && (
+        <SessionProvider session={session}> 
+          <Provider store={store}>
+            <Component {...pageProps} />
+          </Provider>
+        </SessionProvider>
+      )}
     </>
   );
 }

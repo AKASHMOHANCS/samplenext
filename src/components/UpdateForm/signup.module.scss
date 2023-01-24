@@ -1,0 +1,72 @@
+.container{
+    padding-top: 40%;
+}
+.error {
+    color: red;
+    font-size: 70%;
+  }
+  .form {
+    width: 460px;
+    padding: 10%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    opacity: 1;
+  }
+  .label {
+    margin-top: 5%;
+    font: normal normal normal 16px/20px Inter;
+    letter-spacing: 0px;
+    color: #727272;
+    text-transform: capitalize;
+    opacity: 1;
+  }
+  .formButton {
+    margin-top: 20px;
+    width: 115px;
+    height: 50px;
+    /* UI Properties */
+    border: none;
+    font: normal normal 600 16px/45px Inter;
+    letter-spacing: 0px;
+    color: #ffffff;
+    text-transform: capitalize;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .links{
+    text-decoration: none;
+    padding-top: 10%;
+  }
+  
+.title{
+  text-align: center;
+}
+  
+  @media (max-width: 600px) {
+    .form {
+      width: 100%;
+    }
+    .label {
+      margin-top: 5%;
+    }
+    .formButton {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  .rowContainer{
+ 
+    padding-top: 8%;
+    padding-bottom: 8%;
+    
+}
+.error {
+  color: red;
+  font-size: 70%;
+}
+.success_icon{
+  width: 45px;
+  height: 45px;
+}

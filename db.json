@@ -1,6 +1,9 @@
 {
   "*": {
-    "status": "Not Found"
+    "signUp_name": "dfdfdfdf1234",
+    "signUp_mobile": "+91999545449f",
+    "signUp_email": "akas@web.comwd",
+    "signUp_password": "akashmohaned"
   },
   "data": {
     "seo": {
@@ -33,7 +36,6 @@
     ]
   },
   "about": {
-    
     "seo": {
       "metatitle": "about",
       "metadescription": "about description"
@@ -52,7 +54,6 @@
       },
       {
         "name": "about",
-
         "values": [
           {
             "id": 2289,
@@ -85,11 +86,8 @@
         ]
       }
     ]
-    
   },
-
   "about_1": {
-    
     "seo": {
       "metatitle": "about 1",
       "metadescription": "about 1 description"
@@ -108,7 +106,6 @@
       },
       {
         "name": "about",
-
         "values": [
           {
             "id": 2289,
@@ -141,11 +138,8 @@
         ]
       }
     ]
-    
   },
-
   "contact_1": {
-    
     "seo": {
       "metatitle": "contact 1",
       "metadescription": "about 1 description"
@@ -164,7 +158,6 @@
       },
       {
         "name": "contact",
-
         "values": [
           {
             "id": 2289,
@@ -197,11 +190,8 @@
         ]
       }
     ]
-    
   },
-
   "portfolio_1": {
-    
     "seo": {
       "metatitle": "portfolio 1",
       "metadescription": "about 1 description"
@@ -220,7 +210,6 @@
       },
       {
         "name": "about",
-
         "values": [
           {
             "id": 2289,
@@ -253,7 +242,6 @@
         ]
       }
     ]
-    
   },
   "contact": {
     "seo": {
@@ -274,6 +262,158 @@
       }
     ]
   },
+  "gallery": {
+    "seo": {
+      "metatitle": "gallery",
+      "metadescription": "gallery description"
+    },
+    "widgets": [
+      {
+        "url": "gallery",
+        "data": {
+          "title": "gallery page",
+          "link": {
+            "url": "/gallery",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "all_photos": {
+    "seo": {
+      "metatitle": "gallery",
+      "metadescription": "gallery description"
+    },
+    "widgets": [
+      {
+        "url": "all_photos",
+        "data": {
+          "title": "all photos page",
+          "link": {
+            "url": "/gallery",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "latest_photos": {
+    "seo": {
+      "metatitle": "gallery",
+      "metadescription": "gallery description"
+    },
+    "widgets": [
+      {
+        "url": "latest_photos",
+        "data": {
+          "title": "latest photos page",
+          "link": {
+            "url": "/gallery/latest_photos",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "featured_photos": {
+    "seo": {
+      "metatitle": "gallery",
+      "metadescription": "gallery description"
+    },
+    "widgets": [
+      {
+        "url": "featured_photos",
+        "data": {
+          "title": "featured photos page",
+          "link": {
+            "url": "/gallery/featured_photos",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "favourite_photos": {
+    "seo": {
+      "metatitle": "gallery",
+      "metadescription": "gallery description"
+    },
+    "widgets": [
+      {
+        "url": "favourite_photos",
+        "data": {
+          "title": "favourite photos page",
+          "link": {
+            "url": "/gallery/favourite_photos",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "all_favourite_photos": {
+    "seo": {
+      "metatitle": "gallery",
+      "metadescription": "gallery description"
+    },
+    "widgets": [
+      {
+        "url": "all_favourite_photos",
+        "data": {
+          "title": "all favourite photos",
+          "link": {
+            "url": "/gallery/favourite_photos/all_favourite_photos",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "family_favourite_photos": {
+    "seo": {
+      "metatitle": "gallery",
+      "metadescription": "gallery description"
+    },
+    "widgets": [
+      {
+        "url": "family_favourite_photos",
+        "data": {
+          "title": "family favourite photos",
+          "link": {
+            "url": "/gallery/favourite_photos/family_favourite_photos",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "friends_favourite_photos": {
+    "seo": {
+      "metatitle": "gallery",
+      "metadescription": "gallery description"
+    },
+    "widgets": [
+      {
+        "url": "friends_favourite_photos",
+        "data": {
+          "title": "friends favourite photos",
+          "link": {
+            "url": "/gallery/favourite_photos/friends_favourite_photos",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
   "portfolio": {
     "seo": {
       "metatitle": "portfolio",
@@ -286,6 +426,44 @@
           "title": "portfolio page",
           "link": {
             "url": "/portfolio",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "login": {
+    "seo": {
+      "metatitle": "login",
+      "metadescription": "login description"
+    },
+    "widgets": [
+      {
+        "url": "login",
+        "data": {
+          "title": "login page",
+          "link": {
+            "url": "/login",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      }
+    ]
+  },
+  "register": {
+    "seo": {
+      "metatitle": "Sign up ",
+      "metadescription": "signup description"
+    },
+    "widgets": [
+      {
+        "url": "register",
+        "data": {
+          "title": "register page",
+          "link": {
+            "url": "/register",
             "text": "Learn more",
             "target": ""
           }
@@ -338,16 +516,24 @@
           "link": "/about",
           "sub_menu": []
         },
-
+        {
+          "title": "Gallery",
+          "link": "/gallery",
+          "sub_menu": []
+        },
         {
           "title": "Portfolio",
           "link": "/portfolio",
           "sub_menu": []
         },
-
         {
           "title": "Contact Us",
           "link": "/contact",
+          "sub_menu": []
+        },
+        {
+          "title": "Register",
+          "link": "/register",
           "sub_menu": []
         }
       ]
@@ -413,14 +599,12 @@
               "title": "Portfolio",
               "url": "/portfolio"
             },
-
             {
               "title": "Contact",
               "url": "/contact"
             }
           ]
         },
-
         {
           "menu_title": "TERMS OF SERVICE",
           "menu": [
@@ -504,5 +688,35 @@
         }
       ]
     }
-  }
+  },
+  "form-submit": [
+    {
+      "signUp_name": "dfdfdfdf1234",
+      "signUp_mobile": "+91999545449f",
+      "signUp_email": "akas@web.comwd",
+      "signUp_password": "akashmohaned",
+      "id": 1
+    },
+    {
+      "signUp_name": "akashmohancs999",
+      "signUp_mobile": "45455434343",
+      "signUp_email": "akash999@web.com",
+      "signUp_password": "akashmohan",
+      "id": 3
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 4
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 5
+    }
+  ]
 }
