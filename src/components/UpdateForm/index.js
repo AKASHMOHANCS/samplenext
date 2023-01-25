@@ -11,13 +11,15 @@ import { AiOutlineClose } from "react-icons/ai";
 import { updateUser } from "lib/pages";
 
 const UpdateForm = ({ user, setUpdate }) => {
+
   const [message, setMessage] = useState();
   const [isEdit, setIsEdit] = useState({
     name: "",
     mobile: "",
     email: "",
     password: "",
-  });
+  })
+
   const [formSubmitted, setFormSubmitted] = useState(false);
 
   const [loading, setLoading] = useState(false);
@@ -69,7 +71,6 @@ const UpdateForm = ({ user, setUpdate }) => {
   });
 
   const submitForm = (resetForm) => {
-    resetForm();
     setLoading(false);
     setFormSubmitted(true);
     setTimeout(() => {
@@ -114,6 +115,12 @@ const UpdateForm = ({ user, setUpdate }) => {
   return (
     <Container>
       <Row className={` ${Style.rowContainer} d-flex justify-content-center `}>
+        <h5
+          onClick={() => handleUpdateCancel()}
+          className="text-left text-black-75"
+        >
+          Go back
+        </h5>
         <Col sm="auto">
           <Form onSubmit={formik.handleSubmit}>
             <Row className={Style.container}>
@@ -274,7 +281,7 @@ const UpdateForm = ({ user, setUpdate }) => {
                   ) : (
                     ""
                   )}
-                  <span>Submit</span>
+                  <span>Update</span>
                 </button>
               </Col>
             </Row>
@@ -297,7 +304,7 @@ const UpdateForm = ({ user, setUpdate }) => {
                   <BsCheck size={20} color="#03b737" />
                 </span>
                 {formSubmitted && (
-                  <p className="mb-0 ps-3 fs-6">"Successfully submitted"</p>
+                  <p className="mb-0 ps-3 fs-6">"Successfully updated"</p>
                 )}
               </div>
             ) : (

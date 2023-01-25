@@ -1,13 +1,28 @@
-import Gallery from "@/components/Album/Gallery";
-import SideNavbar from "@/components/Album/SideNavbar";
-import CommonLayout from "@/components/Layouts/CommonLayout";
-import NotFound from "@/components/NotFound";
+// import Gallery from "@/components/Album/Gallery";
+// import SideNavbar from "@/components/Album/SideNavbar";
+// import CommonLayout from "@/components/Layouts/CommonLayout";
+// import NotFound from "@/components/NotFound";
 import { getLayout, getPageContent } from "lib/pages";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
+import dynamic from "next/dynamic";
+
+const CommonLayout = dynamic(
+  () => import("@/components/Layouts/CommonLayout"),
+  { loading: () => "loading...." }
+);
+const NotFound = dynamic(() => import("@/components/NotFound"), {
+  loading: () => "loading....",
+});
+const SideNavbar = dynamic(() => import("@/components/Album/SideNavbar"), {
+  loading: () => "loading....",
+});
+const Gallery = dynamic(() => import("@/components/Album/Gallery"), {
+  loading: () => "loading....",
+});
 
 const Album = (data) => {
   const [loading, setLoading] = useState(true);
@@ -111,7 +126,6 @@ export const getServerSideProps = async ({ params }) => {
       };
     }
   } else {
-    
     const pageContent = await getPageContent("all_photos");
     const layout = await getLayout("menu");
 

@@ -1,9 +1,21 @@
-import ComponentFunc from "@/components";
-import CommonLayout from "@/components/Layouts/CommonLayout";
-import NotFound from "@/components/NotFound";
+// import ComponentFunc from "@/components";
+// import CommonLayout from "@/components/Layouts/CommonLayout";
+// import NotFound from "@/components/NotFound";
 import { getLayout, getPageContent } from "lib/pages";
 import Head from "next/head";
 import React from "react";
+import dynamic from "next/dynamic";
+
+const CommonLayout = dynamic(
+  () => import("@/components/Layouts/CommonLayout"),
+  { loading: () => "loading...." }
+);
+const NotFound = dynamic(() => import("@/components/NotFound"), {
+  loading: () => "loading....",
+});
+const ComponentFunc = dynamic(() => import("@/components"), {
+  loading: () => "loading....",
+});
 
 const Contact = (data) => {
   return (

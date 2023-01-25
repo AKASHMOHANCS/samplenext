@@ -1,43 +1,52 @@
-import ComponentFunc from "@/components";
-import CommonLayout from "@/components/Layouts/CommonLayout";
-import NotFound from "@/components/NotFound";
+//import ComponentFunc from "@/components";
+//import CommonLayout from "@/components/Layouts/CommonLayout";
+//import NotFound from "@/components/NotFound";
 import { getLayout, getPageContent } from "lib/pages";
 import Head from "next/head";
 import React from "react";
+import dynamic from "next/dynamic";
 
+const CommonLayout = dynamic(
+  () => import("@/components/Layouts/CommonLayout"),
+  { loading: () => "loading...." }
+);
+const NotFound = dynamic(() => import("@/components/NotFound"), {
+  loading: () => "loading....",
+});
+const ComponentFunc = dynamic(() => import("@/components"), {
+  loading: () => "loading....",
+});
 
 const Portfolio = (data) => {
-  
   return (
     <>
-    <Head>
-      <title>{data?.data?.seo?.metatitle}</title>
-      <meta name="description" content={data?.data?.seo?.metadescription} />
+      <Head>
+        <title>{data?.data?.seo?.metatitle}</title>
+        <meta name="description" content={data?.data?.seo?.metadescription} />
 
-      {data?.data?.no_follow && (
-        <meta name="robots" content="nofollow"></meta>
-      )}
-      {data?.data?.no_index && <meta name="robots" content="noindex"></meta>}
-    </Head>
-    <main>
-      {data?.data?.status == "Not Found" ? (
-        <>
-          <CommonLayout props={data?.menu}>
-            <NotFound />
-          </CommonLayout>
-        </>
-      ) : (
-        <>
-          {data && (
-            <CommonLayout props={data?.data?.menu}>
-              <>{data?.data?.widgets?.map((block) => ComponentFunc(block))}</>
+        {data?.data?.no_follow && (
+          <meta name="robots" content="nofollow"></meta>
+        )}
+        {data?.data?.no_index && <meta name="robots" content="noindex"></meta>}
+      </Head>
+      <main>
+        {data?.data?.status == "Not Found" ? (
+          <>
+            <CommonLayout props={data?.menu}>
+              <NotFound />
             </CommonLayout>
-          )}
-        </>
-      )}
-    </main>
-  </>
-
+          </>
+        ) : (
+          <>
+            {data && (
+              <CommonLayout props={data?.data?.menu}>
+                <>{data?.data?.widgets?.map((block) => ComponentFunc(block))}</>
+              </CommonLayout>
+            )}
+          </>
+        )}
+      </main>
+    </>
   );
 };
 
@@ -49,7 +58,6 @@ export async function getStaticPaths() {
     fallback: false,
   };
 }
-
 
 export async function getStaticProps() {
   try {

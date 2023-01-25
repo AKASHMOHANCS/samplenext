@@ -1,23 +1,29 @@
-import { combineReducers, configureStore } from '@reduxjs/toolkit';
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
+import { createWrapper } from "next-redux-wrapper";
+import authSlice from "./authSlice";
 
+// const reducers = {
+//   [authSlice.name]: authSlice.reducer,
+// };
+// const reducer = combineReducers(reducers);
 
-
-import authslice from './authslice';
+// const makeStore = () =>
+//   configureStore({
+//     reducer,
+//     devTools: true,
+//     middleware: (getDefaultMiddleware) =>
+//       getDefaultMiddleware().concat(pokemonApi.middleware),
+//   });
 
 const appReducer = combineReducers({
-    auth:authslice
+  auth: authSlice,
 });
 
 const store = configureStore({
-    reducer: appReducer
-})
+  reducer: appReducer,
+});
 
-export default store
+export default store;
 
-// const makeStore = configureStore({
-//     reducer: {
-//       [authslice.name]: authslice.reducer,
-//     },
-//   });
-//   export const wrapper = createWrapper(makeStore);
-  
+//export const wrapper = createWrapper(makeStore);

@@ -6,9 +6,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Assets from "@/components/Layouts/CommonLayout/assets";
 import Image from "next/image";
 import { Provider } from "react-redux";
-import store, { wrapper } from "../Store/store";
+import store from "@/Store/store";
+import { createWrapper } from "next-redux-wrapper";
+import Context from "@/Context/Context";
 
-function App({ Component, pageProps,session }) {
+function App({ Component, pageProps, session }) {
+  // const { store, props,session } = wrapper.useWrappedStore(rest);
+  // const { pageProps } = props;
 
   const [loading, setLoading] = useState(true);
   const [preloaderShow, setPreloaderShow] = useState(1);
@@ -46,9 +50,11 @@ function App({ Component, pageProps,session }) {
         </div>
       )}
       {preloaderShow == "0" && (
-        <SessionProvider session={session}> 
+        <SessionProvider session={session}>
           <Provider store={store}>
-            <Component {...pageProps} />
+            <Context>
+              <Component {...pageProps} />
+            </Context>
           </Provider>
         </SessionProvider>
       )}

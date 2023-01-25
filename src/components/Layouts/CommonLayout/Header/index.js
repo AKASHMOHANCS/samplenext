@@ -1,17 +1,18 @@
 import Link from "next/link";
 import React from "react";
 import Container from "react-bootstrap/Container";
-
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Style from "./header.module.scss";
 import { signOut, signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useDispatch, useSelector } from "react-redux";
-import { logout, setIsLoggedIn } from "@/Store/authslice";
+import {  selectIsLoggedIn, setIsLoggedIn } from "@/Store/authSlice";
 
 const Header = ({ props }) => {
   const { isLoggedIn } = useSelector((state) => state.auth);
+  
+ // const isLoggedIn = useSelector(selectIsLoggedIn); // updated
 
   const { data: session, status } = useSession();
 
@@ -24,7 +25,7 @@ const Header = ({ props }) => {
       try {
         
         localStorage.removeItem("user");
-        dispatch(setIsLoggedIn());
+         dispatch(setIsLoggedIn());
    
       } catch (error) {
         // An error happened.

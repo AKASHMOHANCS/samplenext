@@ -1,20 +1,30 @@
 import Head from "next/head";
 import { getLayout, getPageContent } from "lib/pages";
-import CommonLayout from "@/components/Layouts/CommonLayout";
-import NotFound from "@/components/NotFound";
-import ComponentFunc from "@/components";
+import dynamic from "next/dynamic";
+// import CommonLayout from "@/components/Layouts/CommonLayout";
+// import NotFound from "@/components/NotFound";
+// import ComponentFunc from "@/components";
+
+const CommonLayout = dynamic(
+  () => import("@/components/Layouts/CommonLayout"),
+  { loading: () => "loading...." }
+);
+const NotFound = dynamic(() => import("@/components/NotFound"), {
+  loading: () => "loading....",
+});
+const ComponentFunc = dynamic(() => import("@/components"), {
+  loading: () => "loading....",
+});
+
 
 const Common = ({ data }) => {
-
   return (
     <>
       <Head>
         <title>{data?.seo?.metatitle}</title>
         <meta name="description" content={data?.seo?.metadescription} />
 
-        {data?.no_follow && (
-          <meta name="robots" content="nofollow"></meta>
-        )}
+        {data?.no_follow && <meta name="robots" content="nofollow"></meta>}
         {data?.no_index && <meta name="robots" content="noindex"></meta>}
       </Head>
       <main>
@@ -41,18 +51,17 @@ const Common = ({ data }) => {
 export async function getStaticPaths() {
   return {
     paths: [
-      // { params: { slug: ["gallery"] } },
       { params: { slug: ["about"] } },
       { params: { slug: ["portfolio"] } },
       { params: { slug: ["contact"] } },
-      { params: { slug: ["family"] } },
+      { params: { slug: ["register"] } },
+      { params: { slug: ["login"] } },
     ],
-    fallback: "blocking",
+    fallback: false,
   };
 }
 
 export const getStaticProps = async ({ params }) => {
-
   let route = params.slug.join("/");
 
   const pageContent = await getPageContent(route);

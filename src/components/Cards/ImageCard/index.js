@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import Style from "./imageCard.module.scss";
 const ImageCard = ({ items }) => {
   return (
-    <Col lg={4}>
+    <Col lg={"auto"}>
       <Image
         src={items.image}
         className={Style.imagewidth}

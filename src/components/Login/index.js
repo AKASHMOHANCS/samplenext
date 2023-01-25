@@ -9,12 +9,42 @@ import { getUser } from "lib/pages";
 import { BsCheck } from "react-icons/bs";
 import { useRouter } from "next/router";
 import { useDispatch, useSelector } from "react-redux";
-import { setIsLoggedIn, setUserDetails } from "@/Store/authslice";
+import { selectIsLoggedIn,selectUserDetails, setIsLoggedIn } from "@/Store/authSlice";
+import { ContextProvider } from "@/Context/Context";
+import { useContext } from "react";
+
+
 
 const Login = () => {
-  const {isLoggedIn} = useSelector((state) => state.auth);
 
-  console.log(isLoggedIn,"status")
+
+  const { message1, setMessage1 } = useContext(ContextProvider);
+
+   const {isLoggedIn} = useSelector((state) => state.auth);
+ // const isLoggedIn = useSelector(selectIsLoggedIn); // updated
+ // const isUser = useSelector(selectUserDetails)
+
+ function getCookie(name) {
+  let cookie = {};
+  document.cookie.split(";").forEach(function (el) {
+    let [k, v] = el.split("=");
+    cookie[k.trim()] = v;
+  });
+  return cookie[name];
+}
+
+function setCookie(cName, cValue, expDays) {
+  let date = new Date();
+  date.setTime(date.getTime() + expDays * 24 * 60 * 60 * 1000);
+  const expires = "expires=" + date.toUTCString();
+  document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
+}
+
+setCookie("name1","akashmoh",1)
+
+console.log(getCookie("name1"))
+
+
   const [message, setMessage] = useState();
 
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -42,6 +72,7 @@ const Login = () => {
 
     onSubmit: (values, { resetForm }) => {
       setLoading(true);
+      setMessage1("user logged in");
       try {
         let obj = {
           signIn_email: values.email,
@@ -69,6 +100,7 @@ const Login = () => {
       );
     });
     dispatch(setIsLoggedIn());
+   
 
     setTimeout(() => {
       setFormSubmitted(false);

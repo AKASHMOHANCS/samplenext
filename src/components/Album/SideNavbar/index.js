@@ -8,14 +8,11 @@ import Tooltip from "react-bootstrap/Tooltip";
 import Link from "next/link";
 
 const SideNavbar = () => {
-
   const [isOpenSideNav, setopenSideNav] = useState(true);
 
   const toggleOpen = () => {
     setopenSideNav(!isOpenSideNav);
   };
-
-  
 
   const SIDE_NAV_DATA = [
     {
