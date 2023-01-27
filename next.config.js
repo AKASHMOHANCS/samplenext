@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 
 
+
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -14,6 +16,7 @@ const nextConfig = {
     MAILCHIMP_AUDIENCE_ID: "34da44543e",
     MAILCHIMP_API_SERVER: "us13",
   },
+
 
 };
 

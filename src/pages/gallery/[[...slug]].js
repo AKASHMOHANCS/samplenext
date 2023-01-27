@@ -9,6 +9,7 @@ import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import dynamic from "next/dynamic";
+import ComponentFunc from "@/components";
 
 const CommonLayout = dynamic(
   () => import("@/components/Layouts/CommonLayout"),
@@ -71,7 +72,9 @@ const Album = (data) => {
                       <SideNavbar />
                     </Col>
                     <Col sm={9}>
-                      <Gallery data={data?.data?.widgets} />
+                      {data?.data?.widgets?.map((block) =>
+                        ComponentFunc(block)
+                      )}
                     </Col>
                   </Row>
                 </Container>

@@ -8,6 +8,7 @@ import Style from "./gallery.module.scss";
 import LatestPhotos from "./LatestPhotos";
 
 const Gallery = ({ data }) => {
+  console.log(data,"data=====")
   const Components = [
     { data: AllPhotos, url: "all_photos" },
     { data: LatestPhotos, url: "latest_photos" },

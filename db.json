@@ -42,6 +42,26 @@
     },
     "widgets": [
       {
+        "url": "breadcrumbs",
+
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "about",
+              "path": "/about"
+            }
+          ],
+
+          "title": "about breadcrumbs",
+          "link": {
+            "url": "/about",
+            "text": "about",
+            "target": ""
+          }
+        }
+      },
+      {
         "url": "about",
         "data": {
           "title": "about page",
@@ -51,39 +71,6 @@
             "target": ""
           }
         }
-      },
-      {
-        "name": "about",
-        "values": [
-          {
-            "id": 2289,
-            "subs_id": "157",
-            "link": "/about/about_1",
-            "title": "Visit our new showroom",
-            "content": "With the increasing number of new customers and the growing response to our web and app based E-commerce Platform <a href=\"http://jerseymep.com\">jerseymep.com</a> exclusively for HVAC & MEP products in Qatar; we created a unique themed showroom & display of select MEP products for customers to better understand our overall business scope complimented with a special walk in experience and also purchase our products Online as desired.<br>\r\n\r\n<button> <a href=\"https://goo.gl/maps/uHuSLVVPCaUw3Hz67\" target=\"_blank\" rel=\"noopener\">Get direction</a> </button>",
-            "service_short": "JET",
-            "service_color": "#f39200",
-            "service_name": "Jersey Engineering",
-            "date": "Oct 10 2022",
-            "categories": "News",
-            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg",
-            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg.webp"
-          },
-          {
-            "id": 2286,
-            "subs_id": "",
-            "link": "/about/about_2",
-            "title": "Exploring new horizons (KSA)",
-            "content": "<blockquote>In line with our expansion plans and exports to new markets we have recently set up a new office in Saudi Arabia .</blockquote>\r\nThis initiative has been carefully thought of and implemented with a view to establish our presence in a growing environment and also participate in their new projects planned for the coming years. We have identified many products like Insulation ,Valves , Air distribution products , Engineering services and such others to begin with . Our active presence in Riyadh with ample support from our HO in Qatar will certainly give us an edge owing to the wide range of leading brands and products that we can offer.",
-            "service_short": "JIT",
-            "service_color": "#f39200",
-            "service_name": "Jersey Integrated Company",
-            "date": "Nov 01 2022",
-            "categories": "News",
-            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg",
-            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg.webp"
-          }
-        ]
       }
     ]
   },
@@ -94,6 +81,28 @@
     },
     "widgets": [
       {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "about",
+              "path": "/about"
+            },
+            {
+              "title": "about1",
+              "path": "/about/about1"
+            }
+          ],
+          "title": "about 1 breadcrumbs",
+          "link": {
+            "url": "/about1",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      },
+      {
         "url": "about_1",
         "data": {
           "title": "about page",
@@ -103,39 +112,6 @@
             "target": ""
           }
         }
-      },
-      {
-        "name": "about",
-        "values": [
-          {
-            "id": 2289,
-            "subs_id": "157",
-            "link": "/about/about_1",
-            "title": "Visit our new showroom",
-            "content": "With the increasing number of new customers and the growing response to our web and app based E-commerce Platform <a href=\"http://jerseymep.com\">jerseymep.com</a> exclusively for HVAC & MEP products in Qatar; we created a unique themed showroom & display of select MEP products for customers to better understand our overall business scope complimented with a special walk in experience and also purchase our products Online as desired.<br>\r\n\r\n<button> <a href=\"https://goo.gl/maps/uHuSLVVPCaUw3Hz67\" target=\"_blank\" rel=\"noopener\">Get direction</a> </button>",
-            "service_short": "JET",
-            "service_color": "#f39200",
-            "service_name": "Jersey Engineering",
-            "date": "Oct 10 2022",
-            "categories": "News",
-            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg",
-            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg.webp"
-          },
-          {
-            "id": 2286,
-            "subs_id": "",
-            "link": "/about/about_2",
-            "title": "Exploring new horizons (KSA)",
-            "content": "<blockquote>In line with our expansion plans and exports to new markets we have recently set up a new office in Saudi Arabia .</blockquote>\r\nThis initiative has been carefully thought of and implemented with a view to establish our presence in a growing environment and also participate in their new projects planned for the coming years. We have identified many products like Insulation ,Valves , Air distribution products , Engineering services and such others to begin with . Our active presence in Riyadh with ample support from our HO in Qatar will certainly give us an edge owing to the wide range of leading brands and products that we can offer.",
-            "service_short": "JIT",
-            "service_color": "#f39200",
-            "service_name": "Jersey Integrated Company",
-            "date": "Nov 01 2022",
-            "categories": "News",
-            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg",
-            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg.webp"
-          }
-        ]
       }
     ]
   },
@@ -146,6 +122,28 @@
     },
     "widgets": [
       {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "contact",
+              "path": "/contact"
+            },
+            {
+              "title": "contact_1",
+              "path": "/contact/contact_1"
+            }
+          ],
+          "title": "contact 1 breadcrumbs",
+          "link": {
+            "url": "/contact1",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      },
+      {
         "url": "contact_1",
         "data": {
           "title": "contact page",
@@ -155,39 +153,6 @@
             "target": ""
           }
         }
-      },
-      {
-        "name": "contact",
-        "values": [
-          {
-            "id": 2289,
-            "subs_id": "157",
-            "link": "/contact/contact_1",
-            "title": "Visit our new showroom",
-            "content": "With the increasing number of new customers and the growing response to our web and app based E-commerce Platform <a href=\"http://jerseymep.com\">jerseymep.com</a> exclusively for HVAC & MEP products in Qatar; we created a unique themed showroom & display of select MEP products for customers to better understand our overall business scope complimented with a special walk in experience and also purchase our products Online as desired.<br>\r\n\r\n<button> <a href=\"https://goo.gl/maps/uHuSLVVPCaUw3Hz67\" target=\"_blank\" rel=\"noopener\">Get direction</a> </button>",
-            "service_short": "JET",
-            "service_color": "#f39200",
-            "service_name": "Jersey Engineering",
-            "date": "Oct 10 2022",
-            "categories": "News",
-            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg",
-            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg.webp"
-          },
-          {
-            "id": 2286,
-            "subs_id": "",
-            "link": "/contact/contact_1",
-            "title": "Exploring new horizons (KSA)",
-            "content": "<blockquote>In line with our expansion plans and exports to new markets we have recently set up a new office in Saudi Arabia .</blockquote>\r\nThis initiative has been carefully thought of and implemented with a view to establish our presence in a growing environment and also participate in their new projects planned for the coming years. We have identified many products like Insulation ,Valves , Air distribution products , Engineering services and such others to begin with . Our active presence in Riyadh with ample support from our HO in Qatar will certainly give us an edge owing to the wide range of leading brands and products that we can offer.",
-            "service_short": "JIT",
-            "service_color": "#f39200",
-            "service_name": "Jersey Integrated Company",
-            "date": "Nov 01 2022",
-            "categories": "News",
-            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg",
-            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg.webp"
-          }
-        ]
       }
     ]
   },
@@ -198,6 +163,28 @@
     },
     "widgets": [
       {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "portfolio",
+              "path": "/portfolio"
+            },
+            {
+              "title": "portfolio_1",
+              "path": "/portfolio/portfolio_1"
+            }
+          ],
+          "title": "portfolio 1 breadcrumbs",
+          "link": {
+            "url": "/portfolio",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      },
+      {
         "url": "portfolio_1",
         "data": {
           "title": "portfolio_1 page",
@@ -207,39 +194,6 @@
             "target": ""
           }
         }
-      },
-      {
-        "name": "about",
-        "values": [
-          {
-            "id": 2289,
-            "subs_id": "157",
-            "link": "/portfolio/portfolio_1",
-            "title": "Visit our new showroom",
-            "content": "With the increasing number of new customers and the growing response to our web and app based E-commerce Platform <a href=\"http://jerseymep.com\">jerseymep.com</a> exclusively for HVAC & MEP products in Qatar; we created a unique themed showroom & display of select MEP products for customers to better understand our overall business scope complimented with a special walk in experience and also purchase our products Online as desired.<br>\r\n\r\n<button> <a href=\"https://goo.gl/maps/uHuSLVVPCaUw3Hz67\" target=\"_blank\" rel=\"noopener\">Get direction</a> </button>",
-            "service_short": "JET",
-            "service_color": "#f39200",
-            "service_name": "Jersey Engineering",
-            "date": "Oct 10 2022",
-            "categories": "News",
-            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg",
-            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg.webp"
-          },
-          {
-            "id": 2286,
-            "subs_id": "",
-            "link": "/portfolio/portfolio_1",
-            "title": "Exploring new horizons (KSA)",
-            "content": "<blockquote>In line with our expansion plans and exports to new markets we have recently set up a new office in Saudi Arabia .</blockquote>\r\nThis initiative has been carefully thought of and implemented with a view to establish our presence in a growing environment and also participate in their new projects planned for the coming years. We have identified many products like Insulation ,Valves , Air distribution products , Engineering services and such others to begin with . Our active presence in Riyadh with ample support from our HO in Qatar will certainly give us an edge owing to the wide range of leading brands and products that we can offer.",
-            "service_short": "JIT",
-            "service_color": "#f39200",
-            "service_name": "Jersey Integrated Company",
-            "date": "Nov 01 2022",
-            "categories": "News",
-            "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg",
-            "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg.webp"
-          }
-        ]
       }
     ]
   },
@@ -249,6 +203,24 @@
       "metadescription": "contact description"
     },
     "widgets": [
+      {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "contact",
+              "path": "/contact"
+            }
+          ],
+          "title": "contact breadcrumbs",
+          "link": {
+            "url": "/contact",
+            "text": "Learn more",
+            "target": ""
+          }
+        }
+      },
       {
         "url": "contact",
         "data": {
@@ -269,6 +241,24 @@
     },
     "widgets": [
       {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "gallery",
+              "path": "/gallery"
+            }
+          ],
+          "title": "gallery breadcrumbs",
+          "link": {
+            "url": "/gallery",
+            "text": "gallery",
+            "target": ""
+          }
+        }
+      },
+      {
         "url": "gallery",
         "data": {
           "title": "gallery page",
@@ -288,11 +278,33 @@
     },
     "widgets": [
       {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "gallery",
+              "path": "/gallery"
+            },
+            {
+              "title": "all_photos",
+              "path": "/gallery/all_photos"
+            }
+          ],
+          "title": "all_photos breadcrumbs",
+          "link": {
+            "url": "gallery/",
+            "text": "all_photos",
+            "target": ""
+          }
+        }
+      },
+      {
         "url": "all_photos",
         "data": {
-          "title": "all photos page",
+          "title": "allphotos page",
           "link": {
-            "url": "/gallery",
+            "url": "/gallery/",
             "text": "Learn more",
             "target": ""
           }
@@ -306,6 +318,28 @@
       "metadescription": "gallery description"
     },
     "widgets": [
+      {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "gallery",
+              "path": "/gallery"
+            },
+            {
+              "title": "latest_photos",
+              "path": "/gallery/latest_photos"
+            }
+          ],
+          "title": "latest_photo breadcrumbs",
+          "link": {
+            "url": "gallery/latest_photo",
+            "text": "latest_photo",
+            "target": ""
+          }
+        }
+      },
       {
         "url": "latest_photos",
         "data": {
@@ -326,6 +360,28 @@
     },
     "widgets": [
       {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "gallery",
+              "path": "/gallery"
+            },
+            {
+              "title": "featured_photos",
+              "path": "/gallery/featured_photos"
+            }
+          ],
+          "title": "featured photos breadcrumbs",
+          "link": {
+            "url": "/gallery/featured_photos",
+            "text": "featured_photos",
+            "target": ""
+          }
+        }
+      },
+      {
         "url": "featured_photos",
         "data": {
           "title": "featured photos page",
@@ -344,6 +400,33 @@
       "metadescription": "gallery description"
     },
     "widgets": [
+      {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "gallery",
+              "path": "/gallery"
+            },
+            {
+              "title": "favourite_photos",
+              "path": "/gallery/favourite_photos"
+            },
+
+            {
+              "title": "all_favourite_photos",
+              "path": "/gallery/favourite_photos/"
+            }
+          ],
+          "title": "favourite photos breadcrumbs",
+          "link": {
+            "url": "/gallery/favourite_photos",
+            "text": "favourite_photos",
+            "target": ""
+          }
+        }
+      },
       {
         "url": "favourite_photos",
         "data": {
@@ -364,7 +447,34 @@
     },
     "widgets": [
       {
-        "url": "all_favourite_photos",
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "gallery",
+              "path": "/gallery"
+            },
+            {
+              "title": "favourite_photos",
+              "path": "/gallery/favourite_photos"
+            },
+
+            {
+              "title": "all_favourite_photos",
+              "path": "/gallery/favourite_photos/"
+            }
+          ],
+          "title": "all favourite photos breadcrumbs",
+          "link": {
+            "url": "/gallery/favourite_photos/",
+            "text": "all_favourite_photos",
+            "target": ""
+          }
+        }
+      },
+      {
+        "url": "favourite_photos",
         "data": {
           "title": "all favourite photos",
           "link": {
@@ -383,7 +493,34 @@
     },
     "widgets": [
       {
-        "url": "family_favourite_photos",
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "gallery",
+              "path": "/gallery"
+            },
+            {
+              "title": "favourite_photos",
+              "path": "/gallery/favourite_photos"
+            },
+
+            {
+              "title": "family_favourite_photos",
+              "path": "/gallery/favourite_photos/family_favourite_photos"
+            }
+          ],
+          "title": "family favourite photos breadcrumbs",
+          "link": {
+            "url": "/gallery/favourite_photos/family_favourite_photos",
+            "text": "family_favourite_photos",
+            "target": ""
+          }
+        }
+      },
+      {
+        "url": "favourite_photos",
         "data": {
           "title": "family favourite photos",
           "link": {
@@ -402,7 +539,35 @@
     },
     "widgets": [
       {
-        "url": "friends_favourite_photos",
+        "url": "breadcrumbs",
+
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "gallery",
+              "path": "/gallery"
+            },
+            {
+              "title": "favourite_photos",
+              "path": "/gallery/favourite_photos"
+            },
+
+            {
+              "title": "friends_favourite_photos",
+              "path": "/gallery/favourite_photos/friends_favourite_photos"
+            }
+          ],
+          "title": "friends favourite photos breadcrumbs",
+          "link": {
+            "url": "/gallery/favourite_photos/friends_favourite_photos",
+            "text": "friends_favourite_photos",
+            "target": ""
+          }
+        }
+      },
+      {
+        "url": "favourite_photos",
         "data": {
           "title": "friends favourite photos",
           "link": {
@@ -420,6 +585,24 @@
       "metadescription": "portfolio description"
     },
     "widgets": [
+      {
+        "url": "breadcrumbs",
+        "data": {
+          "levels": [
+            { "title": "Home", "path": "/" },
+            {
+              "title": "portfolio",
+              "path": "/portfolio"
+            }
+          ],
+          "title": "portfolio breadcrumbs",
+          "link": {
+            "url": "/portfolio",
+            "text": "portfolio",
+            "target": ""
+          }
+        }
+      },
       {
         "url": "portfolio",
         "data": {

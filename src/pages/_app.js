@@ -9,6 +9,8 @@ import { Provider } from "react-redux";
 import store from "@/Store/store";
 import { createWrapper } from "next-redux-wrapper";
 import Context from "@/Context/Context";
+import { GoogleReCaptchaProvider } from "react-google-recaptcha-v3";
+
 
 function App({ Component, pageProps, session }) {
   // const { store, props,session } = wrapper.useWrappedStore(rest);

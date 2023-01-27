@@ -20,6 +20,8 @@ import React from "react";
 // import Family from "./Album/Gallery/FavouritePhotos/Family";
 // import Friends from "./Album/Gallery/FavouritePhotos/Friends";
 import dynamic from "next/dynamic";
+import BreadcrumbsComp from "./CustomBreadcrumb";
+import CustomBreadcrumb from "./CustomBreadcrumb";
 
 const About1 = dynamic(() => import("./About1/About1"), {
   loading: () => "loading....",
@@ -85,6 +87,10 @@ const Friends = dynamic(
   () => import("./Album/Gallery/FavouritePhotos/Friends"),
   { loading: () => "loading...." }
 );
+const Breadcrumbs = dynamic(
+  () => import("./CustomBreadcrumb"),
+  { loading: () => "loading...." }
+);
 
 const Components = {
   common_layout: CommonLayout,
@@ -106,6 +112,7 @@ const Components = {
   all_favourite_photos: AllFavouritePhotos,
   family_favourite_photos: Family,
   friends_favourite_photos: Friends,
+  breadcrumbs:CustomBreadcrumb
 };
 
 const ComponentFunc = (block) => {

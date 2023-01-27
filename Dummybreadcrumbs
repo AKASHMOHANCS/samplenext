@@ -1,0 +1,35 @@
+<CustomBreadcrumb
+            levels={[
+              { title: "Project", path: "/dashboard" },
+              {
+                title: capitalizeFirstLetter(currentPageDetails?.name),
+                path: "/dashboard/folders",
+              },
+            ]}
+          />
+          
+const CustomBreadcrumb = ({ levels }) => {
+  return (
+    <>
+      <Breadcrumb className={Style.custom_breadcrumb}>
+        {levels?.map((level, index) => {
+          return (
+            <React.Fragment key={index}>
+              {levels?.length === index + 1 ? (
+                <Breadcrumb.Item active>
+                  <Icon size={10} icon={"slider-nav-right"} />{" "}
+                  <span>{level?.title}</span>
+                </Breadcrumb.Item>
+              ) : (
+                <Breadcrumb.Item linkAs={Link} linkProps={{ to: level.path }}>
+                  <Icon size={10} icon={"slider-nav-right"} />{" "}
+                  <span>{level.title}</span>
+                </Breadcrumb.Item>
+              )}
+            </React.Fragment>
+          );
+        })}
+      </Breadcrumb>
+    </>
+  );
+};

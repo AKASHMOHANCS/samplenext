@@ -9,41 +9,41 @@ import { getUser } from "lib/pages";
 import { BsCheck } from "react-icons/bs";
 import { useRouter } from "next/router";
 import { useDispatch, useSelector } from "react-redux";
-import { selectIsLoggedIn,selectUserDetails, setIsLoggedIn } from "@/Store/authSlice";
+import {
+  selectIsLoggedIn,
+  selectUserDetails,
+  setIsLoggedIn,
+} from "@/Store/authSlice";
 import { ContextProvider } from "@/Context/Context";
 import { useContext } from "react";
-
-
+import GoogleRecaptcha from "../GoogleRecaptcha";
 
 const Login = () => {
-
-
   const { message1, setMessage1 } = useContext(ContextProvider);
 
-   const {isLoggedIn} = useSelector((state) => state.auth);
- // const isLoggedIn = useSelector(selectIsLoggedIn); // updated
- // const isUser = useSelector(selectUserDetails)
+  const { isLoggedIn } = useSelector((state) => state.auth);
+  // const isLoggedIn = useSelector(selectIsLoggedIn); // updated
+  // const isUser = useSelector(selectUserDetails)
 
- function getCookie(name) {
-  let cookie = {};
-  document.cookie.split(";").forEach(function (el) {
-    let [k, v] = el.split("=");
-    cookie[k.trim()] = v;
-  });
-  return cookie[name];
-}
+  //  function getCookie(name) {
+  //   let cookie = {};
+  //   document.cookie.split(";").forEach(function (el) {
+  //     let [k, v] = el.split("=");
+  //     cookie[k.trim()] = v;
+  //   });
+  //   return cookie[name];
+  // }
 
-function setCookie(cName, cValue, expDays) {
-  let date = new Date();
-  date.setTime(date.getTime() + expDays * 24 * 60 * 60 * 1000);
-  const expires = "expires=" + date.toUTCString();
-  document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
-}
+  // function setCookie(cName, cValue, expDays) {
+  //   let date = new Date();
+  //   date.setTime(date.getTime() + expDays * 24 * 60 * 60 * 1000);
+  //   const expires = "expires=" + date.toUTCString();
+  //   document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
+  // }
 
-setCookie("name1","akashmoh",1)
+  // setCookie("name1","akashmoh",1)
 
-console.log(getCookie("name1"))
-
+  // console.log(getCookie("name1"))
 
   const [message, setMessage] = useState();
 
@@ -51,9 +51,17 @@ console.log(getCookie("name1"))
 
   const [loading, setLoading] = useState(false);
 
+  const [token, setToken] = useState(false);
+
+  const [captchaReset, setCaptchaReset] = useState(false);
+
   const router = useRouter();
 
   const dispatch = useDispatch();
+
+  const onVerify = (val) => {
+    if (val) setToken(true);
+  };
 
   let signinVal = Yup.object({
     email: Yup.string()
@@ -71,19 +79,22 @@ console.log(getCookie("name1"))
     validationSchema: signinVal,
 
     onSubmit: (values, { resetForm }) => {
-      setLoading(true);
-      setMessage1("user logged in");
-      try {
-        let obj = {
-          signIn_email: values.email,
-          signIn_password: values.password,
-        };
+      if (token && !loading) {
+        setLoading(true);
+        setCaptchaReset(true);
+        try {
+          let obj = {
+            signIn_email: values.email,
+            signIn_password: values.password,
+          };
 
-        getUser("form-submit", obj).then((response) => {
-          if (response?.data.length !== 0) submitForm(resetForm, response.data);
-        });
-      } catch (error) {
-        setMessage("Something went wrong");
+          getUser("form-submit", obj).then((response) => {
+            if (response?.data.length !== 0)
+              submitForm(resetForm, response.data);
+          });
+        } catch (error) {
+          setMessage("Something went wrong");
+        }
       }
     },
   });
@@ -100,7 +111,6 @@ console.log(getCookie("name1"))
       );
     });
     dispatch(setIsLoggedIn());
-   
 
     setTimeout(() => {
       setFormSubmitted(false);
@@ -168,7 +178,13 @@ console.log(getCookie("name1"))
                     </Link>
                   </Col>
                 </Row>
+                {console.log(captchaReset)}
 
+                <GoogleRecaptcha
+                  onChange={onVerify}
+                  captchaReset={captchaReset}
+                />
+                
                 <Row className={`${Style.buttonContainer} `}>
                   <Col>
                     <button

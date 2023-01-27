@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { getLayout, getPageContent } from "lib/pages";
 import dynamic from "next/dynamic";
+
 // import CommonLayout from "@/components/Layouts/CommonLayout";
 // import NotFound from "@/components/NotFound";
 // import ComponentFunc from "@/components";
@@ -15,7 +16,6 @@ const NotFound = dynamic(() => import("@/components/NotFound"), {
 const ComponentFunc = dynamic(() => import("@/components"), {
   loading: () => "loading....",
 });
-
 
 const Common = ({ data }) => {
   return (
