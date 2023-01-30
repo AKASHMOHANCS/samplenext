@@ -53,38 +53,38 @@ const Portfolio1 = dynamic(() => import("./Portfolio1/Portfolio1"), {
 const Signup = dynamic(() => import("./SignUp"), {
   loading: () => "loading....",
 });
-const Album = dynamic(() => import("./Album"), {
+const Album = dynamic(() => import("./AlbumDetails"), {
   loading: () => "loading....",
 });
-const Gallery = dynamic(() => import("./Album/Gallery"), {
+const Gallery = dynamic(() => import("./AlbumDetails/Gallery"), {
   loading: () => "loading....",
 });
 
 const PortfolioSection = dynamic(() => import("./PortfolioSection"), {
   loading: () => "loading....",
 });
-const AllPhotos = dynamic(() => import("./Album/Gallery/AllPhotos"), {
+const AllPhotos = dynamic(() => import("./AlbumDetails/Gallery/AllPhotos"), {
   loading: () => "loading....",
 });
-const LatestPhotos = dynamic(() => import("./Album/Gallery/LatestPhotos"), {
+const LatestPhotos = dynamic(() => import("./AlbumDetails/Gallery/LatestPhotos"), {
   loading: () => "loading....",
 });
-const FeaturedPhotos = dynamic(() => import("./Album/Gallery/FeaturedPhotos"), {
+const FeaturedPhotos = dynamic(() => import("./AlbumDetails/Gallery/FeaturedPhotos"), {
   loading: () => "loading....",
 });
 const FavouritePhotos = dynamic(
-  () => import("./Album/Gallery/FavouritePhotos"),
+  () => import("./AlbumDetails/Gallery/FavouritePhotos"),
   { loading: () => "loading...." }
 );
 const AllFavouritePhotos = dynamic(
-  () => import("./Album/Gallery/FavouritePhotos/AllFavouritePhotos"),
+  () => import("./AlbumDetails/Gallery/FavouritePhotos/AllFavouritePhotos"),
   { loading: () => "loading...." }
 );
-const Family = dynamic(() => import("./Album/Gallery/FavouritePhotos/Family"), {
+const Family = dynamic(() => import("./AlbumDetails/Gallery/FavouritePhotos/Family"), {
   loading: () => "loading....",
 });
 const Friends = dynamic(
-  () => import("./Album/Gallery/FavouritePhotos/Friends"),
+  () => import("./AlbumDetails/Gallery/FavouritePhotos/Friends"),
   { loading: () => "loading...." }
 );
 const Breadcrumbs = dynamic(
@@ -117,6 +117,7 @@ const Components = {
 };
 
 const ComponentFunc = (block) => {
+  console.log(block,"block")
   if (typeof Components[block.url] !== "undefined") {
     return React.createElement(Components[block.url], {
       key: Math.random(),

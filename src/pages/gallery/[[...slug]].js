@@ -10,6 +10,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import dynamic from "next/dynamic";
 import ComponentFunc from "@/components";
+import AlbumDetails from "@/components/AlbumDetails";
 
 const CommonLayout = dynamic(
   () => import("@/components/Layouts/CommonLayout"),
@@ -18,16 +19,16 @@ const CommonLayout = dynamic(
 const NotFound = dynamic(() => import("@/components/NotFound"), {
   loading: () => "loading....",
 });
-const SideNavbar = dynamic(() => import("@/components/Album/SideNavbar"), {
+const SideNavbar = dynamic(() => import("@/components/AlbumDetails/SideNavbar"), {
   loading: () => "loading....",
 });
-const Gallery = dynamic(() => import("@/components/Album/Gallery"), {
+const Gallery = dynamic(() => import("@/components/AlbumDetails/Gallery"), {
   loading: () => "loading....",
 });
 
 const Album = (data) => {
 
-  console.log(data)
+  console.log(data,"album data ====")
   const [loading, setLoading] = useState(true);
   const router = useRouter();
   const { isLoggedIn } = useSelector((state) => state.auth);
@@ -68,19 +69,23 @@ const Album = (data) => {
           <>
             {data && (
               <CommonLayout props={data?.data?.menu}>
-                <Container>
+                {/* <Container>
            
                   <Row>
                     <Col sm={3}>
                       <SideNavbar />
                     </Col>
                     <Col sm={9}>
+                      
                       {data?.data?.widgets?.map((block) =>
                         ComponentFunc(block)
                       )}
                     </Col>
                   </Row>
-                </Container>
+                </Container> */}
+                
+            <AlbumDetails data={data} />
+                
               </CommonLayout>
             )}
           </>

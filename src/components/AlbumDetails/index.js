@@ -3,8 +3,9 @@ import { Col, Container, Row } from "react-bootstrap";
 import Gallery from "./Gallery";
 import SideNavbar from "./SideNavbar";
 
-const Album = () => {
-  
+const AlbumDetails = ({data}) => {
+
+   
   return (
     <Container> 
       <Row>
@@ -12,11 +13,11 @@ const Album = () => {
           <SideNavbar  />
         </Col>
         <Col sm={9}>
-          <Gallery  />
+          <Gallery data={data}  />
         </Col>
       </Row>
     </Container>
   )
 };
 
-export default Album;
+export default AlbumDetails;
