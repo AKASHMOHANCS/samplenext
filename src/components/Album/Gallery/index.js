@@ -29,6 +29,7 @@ const Gallery = ({ data }) => {
       <h1>Gallery</h1>
       <Container>
         {Components.map((component, i) => {
+          
           return <div key={i}>{handleComponents(component)}</div>;
         })}
       </Container>

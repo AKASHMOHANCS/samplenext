@@ -56,7 +56,7 @@ const Signup = dynamic(() => import("./SignUp"), {
 const Album = dynamic(() => import("./Album"), {
   loading: () => "loading....",
 });
-const Gallery = dynamic(() => import("./Album"), {
+const Gallery = dynamic(() => import("./Album/Gallery"), {
   loading: () => "loading....",
 });
 
@@ -112,7 +112,8 @@ const Components = {
   all_favourite_photos: AllFavouritePhotos,
   family_favourite_photos: Family,
   friends_favourite_photos: Friends,
-  breadcrumbs:CustomBreadcrumb
+  breadcrumbs:CustomBreadcrumb,
+  gallery:Gallery
 };
 
 const ComponentFunc = (block) => {

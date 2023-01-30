@@ -40,7 +40,7 @@ const PortfolioSection = ({ props }) => {
 
   return (
     <>
-      <Container>
+      <Container style={{minHeight:'80vh'}}>
         <Row>
           {!update ? (
             <h3 className="p-5 ">All Users</h3>

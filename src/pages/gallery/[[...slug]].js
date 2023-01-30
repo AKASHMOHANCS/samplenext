@@ -26,6 +26,8 @@ const Gallery = dynamic(() => import("@/components/Album/Gallery"), {
 });
 
 const Album = (data) => {
+
+  console.log(data)
   const [loading, setLoading] = useState(true);
   const router = useRouter();
   const { isLoggedIn } = useSelector((state) => state.auth);
@@ -67,6 +69,7 @@ const Album = (data) => {
             {data && (
               <CommonLayout props={data?.data?.menu}>
                 <Container>
+           
                   <Row>
                     <Col sm={3}>
                       <SideNavbar />

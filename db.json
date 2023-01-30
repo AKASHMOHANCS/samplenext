@@ -252,7 +252,7 @@
           ],
           "title": "gallery breadcrumbs",
           "link": {
-            "url": "/gallery",
+            "url": "/",
             "text": "gallery",
             "target": ""
           }
@@ -263,7 +263,7 @@
         "data": {
           "title": "gallery page",
           "link": {
-            "url": "/gallery",
+            "url": "/",
             "text": "Learn more",
             "target": ""
           }

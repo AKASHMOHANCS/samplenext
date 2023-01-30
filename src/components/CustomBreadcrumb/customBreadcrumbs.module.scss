@@ -1,7 +1,7 @@
 .custom_breadcrumb{
     :global(.breadcrumb-item){
         font-size: size(14);
-        line-height: 1em;
+      //  line-height: 1em;
        
         &:first-child {
             padding-left: 0;
@@ -9,7 +9,7 @@
         a{
             color: #A09EA6;
             text-decoration: none;
-            line-height: 1em;
+            //line-height: 1em;
             display: flex;
             align-items: baseline;
             svg{
@@ -27,6 +27,18 @@
         }
         
     }
+
+
+
+
+
+
+
+
+
+
+
+
     // :global {
     //     .breadcrumb-item {
     //         &:not(.active) {
