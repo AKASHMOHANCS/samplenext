@@ -5,13 +5,11 @@ import Breadcrumb from "react-bootstrap/Breadcrumb";
 import { AiOutlineRight } from "react-icons/ai";
 import Style from "./customBreadcrumbs.module.scss";
 
-const CustomBreadcrumb = ({ props }) => {
-  const router = useRouter();
+const CustomBreadcrumb = ({ levels }) => {
 
-  const { levels, link, title } = props;
   return (
     <>
-      <Breadcrumb className={Style.custom_breadcrumb}>
+      <Breadcrumb className={`${Style.custom_breadcrumb} pt-5`} >
         {levels?.map((level, index) => {
           return (
             <React.Fragment key={index}>
@@ -23,7 +21,10 @@ const CustomBreadcrumb = ({ props }) => {
               ) : (
                 <Link href={level.path} style={{ textDecoration: "none" }}>
                   {index !== 0 ? <AiOutlineRight size={10} /> : ""}
-                  <span>{level?.title}</span>
+                  <span style={{ paddingRight: "5px", paddingLeft: "5px" }}>
+                    {" "}
+                    {level?.title}
+                  </span>
                 </Link>
               )}
             </React.Fragment>
@@ -35,3 +36,4 @@ const CustomBreadcrumb = ({ props }) => {
 };
 
 export default CustomBreadcrumb;
+

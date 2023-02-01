@@ -1,0 +1,63 @@
+.pagination {
+  margin-bottom: 0;
+
+  &_wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  &_disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+  &_item {
+    a,
+    span {
+      border-radius: 0px !important;
+    }
+
+    :global(.page-link) {
+      border: none;
+      font-weight: 500;
+      font-size: 1rem;
+      color: #000;
+      line-height: 1;
+      padding: 4px 9px;
+      border-radius: 3px !important;
+
+      &:focus {
+        color: grey;
+        box-shadow: none;
+      }
+    }
+
+    &:global(.active) {
+      :global(.page-link) {
+        background-color: grey;
+        border-color: grey;
+      }
+    }
+  }
+
+  &_next,
+  &_prev {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #000;
+    border: none;
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &_next {
+    svg {
+      margin-left: 8px;
+    }
+  }
+
+  &_prev {
+    svg {
+      margin-right: 8px;
+    }
+  }
+}

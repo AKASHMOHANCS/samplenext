@@ -87,10 +87,7 @@ const Friends = dynamic(
   () => import("./AlbumDetails/Gallery/FavouritePhotos/Friends"),
   { loading: () => "loading...." }
 );
-const Breadcrumbs = dynamic(
-  () => import("./CustomBreadcrumb"),
-  { loading: () => "loading...." }
-);
+
 
 const Components = {
   common_layout: CommonLayout,
@@ -112,12 +109,11 @@ const Components = {
   all_favourite_photos: AllFavouritePhotos,
   family_favourite_photos: Family,
   friends_favourite_photos: Friends,
-  breadcrumbs:CustomBreadcrumb,
   gallery:Gallery
 };
 
 const ComponentFunc = (block) => {
-  console.log(block,"block")
+
   if (typeof Components[block.url] !== "undefined") {
     return React.createElement(Components[block.url], {
       key: Math.random(),

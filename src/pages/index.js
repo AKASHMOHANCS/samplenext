@@ -28,7 +28,7 @@ export default function Home(data) {
 
 export async function getStaticProps() {
   try {
-    const pageContent = await getPageContent("data");
+    const pageContent = await getPageContent("home");
     const layout = await getLayout("menu");
 
     const pageData = { ...pageContent, menu: layout };

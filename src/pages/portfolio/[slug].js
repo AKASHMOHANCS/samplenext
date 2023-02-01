@@ -5,6 +5,7 @@ import { getLayout, getPageContent } from "lib/pages";
 import Head from "next/head";
 import React from "react";
 import dynamic from "next/dynamic";
+import CustomBreadcrumb from "@/components/CustomBreadcrumb";
 
 const CommonLayout = dynamic(
   () => import("@/components/Layouts/CommonLayout"),
@@ -40,6 +41,7 @@ const Portfolio = (data) => {
           <>
             {data && (
               <CommonLayout props={data?.data?.menu}>
+                <CustomBreadcrumb levels={data?.data?.levels} />
                 <>{data?.data?.widgets?.map((block) => ComponentFunc(block))}</>
               </CommonLayout>
             )}
@@ -63,6 +65,7 @@ export async function getStaticProps() {
   try {
     const pageContent = await getPageContent("portfolio_1");
     const layout = await getLayout("menu");
+   
 
     const pageData = { ...pageContent, menu: layout };
     return {

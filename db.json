@@ -1,11 +1,9 @@
 {
   "*": {
-    "signUp_name": "akashmohancs123",
-    "signUp_mobile": "+919995454498",
-    "signUp_email": "akash666@web.com",
-    "signUp_password": "akashmohan"
+    "newsletter_email": "akas454@ddd.com",
+    "id": 10
   },
-  "data": {
+  "home": {
     "seo": {
       "metatitle": "Next js",
       "metadescription": "Next js"
@@ -40,27 +38,17 @@
       "metatitle": "about",
       "metadescription": "about description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "about",
-              "path": "/about"
-            }
-          ],
-
-          "title": "about breadcrumbs",
-          "link": {
-            "url": "/about",
-            "text": "about",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "about",
+        "path": "/about"
+      }
+    ],
+    "widgets": [
       {
         "url": "about",
         "data": {
@@ -79,29 +67,21 @@
       "metatitle": "about 1",
       "metadescription": "about 1 description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "about",
-              "path": "/about"
-            },
-            {
-              "title": "about1",
-              "path": "/about/about1"
-            }
-          ],
-          "title": "about 1 breadcrumbs",
-          "link": {
-            "url": "/about1",
-            "text": "Learn more",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "about",
+        "path": "/about"
+      },
+      {
+        "title": "about1",
+        "path": "/about/about1"
+      }
+    ],
+    "widgets": [
       {
         "url": "about_1",
         "data": {
@@ -120,29 +100,21 @@
       "metatitle": "contact 1",
       "metadescription": "about 1 description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "contact",
-              "path": "/contact"
-            },
-            {
-              "title": "contact_1",
-              "path": "/contact/contact_1"
-            }
-          ],
-          "title": "contact 1 breadcrumbs",
-          "link": {
-            "url": "/contact1",
-            "text": "Learn more",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "contact",
+        "path": "/contact"
+      },
+      {
+        "title": "contact_1",
+        "path": "/contact/contact_1"
+      }
+    ],
+    "widgets": [
       {
         "url": "contact_1",
         "data": {
@@ -161,38 +133,385 @@
       "metatitle": "portfolio 1",
       "metadescription": "about 1 description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "portfolio",
-              "path": "/portfolio"
-            },
-            {
-              "title": "portfolio_1",
-              "path": "/portfolio/portfolio_1"
-            }
-          ],
-          "title": "portfolio 1 breadcrumbs",
-          "link": {
-            "url": "/portfolio",
-            "text": "Learn more",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "portfolio",
+        "path": "/portfolio"
+      },
+      {
+        "title": "portfolio_1",
+        "path": "/portfolio/portfolio_1"
+      }
+    ],
+    "widgets": [
       {
         "url": "portfolio_1",
         "data": {
-          "title": "portfolio_1 page",
-          "link": {
-            "url": "/about/portfolio_1",
-            "text": "Learn more",
-            "target": ""
-          }
+          "company": [
+            {
+              "value": "",
+              "label": "All Subsidiaries"
+            },
+            {
+              "value": "159",
+              "label": "Jersey Industrial"
+            },
+            {
+              "value": "161",
+              "label": "Firelink"
+            },
+            {
+              "value": "158",
+              "label": "Jersey Manufacturing"
+            },
+            {
+              "value": "157",
+              "label": "Jersey Engineering"
+            },
+            {
+              "value": "156",
+              "label": "Qatar Insulation"
+            },
+            {
+              "value": "160",
+              "label": "Jersey Glass"
+            }
+          ],
+          "project_type": [
+            {
+              "value": "",
+              "label": "All Project Types"
+            },
+            {
+              "value": "commercial",
+              "label": "Commercial"
+            },
+            {
+              "value": "ports-airports",
+              "label": "Ports & Airports"
+            },
+            {
+              "value": "education-facilities",
+              "label": "Education facilities"
+            },
+            {
+              "value": "park-outdoors",
+              "label": "Park & outdoors"
+            },
+            {
+              "value": "transportation",
+              "label": "Transportation"
+            },
+            {
+              "value": "sports-venus",
+              "label": "Sports Venus"
+            },
+            {
+              "value": "hospitality",
+              "label": "Hospitality"
+            },
+            {
+              "value": "residentials",
+              "label": "Residentials"
+            }
+          ],
+          "product_type": [
+            {
+              "value": "",
+              "label": "All Product Types"
+            },
+            {
+              "value": "metering-system",
+              "label": "METERING PACKAGE"
+            },
+            {
+              "value": "instruments",
+              "label": "INSTRUMENTS (OIL & GAS)"
+            }
+          ],
+          "count": 21,
+          "projects": [
+            {
+              "id": 2438,
+              "link": "portfolio/lusail-plaza-tower",
+              "title": "Lusail Plaza Tower",
+              "place": "Lusail, Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/3231235456.png",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/3231235456.png.webp",
+              "specifications": [
+                {
+                  "title": "Building Panels",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/integrated-control-panel.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/integrated-control-panel.jpg.webp",
+                  "description": "Building Panels",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                }
+              ]
+            },
+            {
+              "id": 2434,
+              "link": "portfolio/hia-central-concourse",
+              "title": "HIA Central Concourse",
+              "place": "Hamad International Airport, Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/HIA_Garden.jpg",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/HIA_Garden.jpg.webp",
+              "specifications": [
+                {
+                  "title": "BMS Service and Installation",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/close-up-of-control-panel-in-industrial-production-2022-02-08-02-34-26-utc-1.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/close-up-of-control-panel-in-industrial-production-2022-02-08-02-34-26-utc-1.jpg.webp",
+                  "description": "BMS Service and Installation\r\n",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                }
+              ]
+            },
+            {
+              "id": 2432,
+              "link": "portfolio/qatar-university-molecular-lab",
+              "title": "Qatar University – Molecular Lab",
+              "place": "Qatar University, Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/research-centers-clu.jpg",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/research-centers-clu.jpg.webp",
+              "specifications": [
+                {
+                  "title": "Building Management System",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/close-up-of-control-panel-in-industrial-production-2022-02-08-02-34-26-utc-1.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/close-up-of-control-panel-in-industrial-production-2022-02-08-02-34-26-utc-1.jpg.webp",
+                  "description": "",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                }
+              ]
+            },
+            {
+              "id": 2429,
+              "link": "portfolio/wadi-mcdp-lusail-marafeq",
+              "title": "Wadi MCDP Lusail – Marafeq",
+              "place": "Lusail, Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Wadi-Lusail-Park.jpg",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Wadi-Lusail-Park.jpg.webp",
+              "specifications": [
+                {
+                  "title": "Building Management System",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/close-up-of-control-panel-in-industrial-production-2022-02-08-02-34-26-utc-1.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/close-up-of-control-panel-in-industrial-production-2022-02-08-02-34-26-utc-1.jpg.webp",
+                  "description": "Building Management System\r\n",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                }
+              ]
+            },
+            {
+              "id": 466,
+              "link": "portfolio/new-doha-port",
+              "title": "New Doha Port",
+              "place": "Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/19Qatar_Ports-18.jpg",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/19Qatar_Ports-18.jpg.webp",
+              "specifications": [
+                {
+                  "title": "Insulations",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                  "description": "Supplied various Insulation products.",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                },
+                {
+                  "title": "Air distribution",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                  "description": "Supplied various air distribution products.",
+                  "top": "22.62%",
+                  "left": "43.56%"
+                },
+                {
+                  "title": "Fire alarm ",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                  "description": "Supplied various fire alarm & fire fighting products.",
+                  "top": "63.06%",
+                  "left": "36.71%"
+                }
+              ]
+            },
+            {
+              "id": 464,
+              "link": "portfolio/lusail-lrt",
+              "title": "Lusail LRT",
+              "place": "Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Lusail-Light-Rail-Transit-02.webp",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Lusail-Light-Rail-Transit-02.webp.webp",
+              "specifications": [
+                {
+                  "title": "Insulations",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                  "description": "Supplied various Insulation products",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                },
+                {
+                  "title": "Air distribution",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                  "description": "Supplied various air distribution products",
+                  "top": "22.62%",
+                  "left": "43.56%"
+                },
+                {
+                  "title": "Fire alarm ",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                  "description": "Supplied various fire alarm & fire fighting products",
+                  "top": "63.06%",
+                  "left": "36.71%"
+                }
+              ]
+            },
+            {
+              "id": 462,
+              "link": "portfolio/qatar-rail",
+              "title": "Qatar Rail",
+              "place": "Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/doha_metro1.jpg",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/doha_metro1.jpg.webp",
+              "specifications": [
+                {
+                  "title": "Insulations",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                  "description": "Supplied various Insulation products.",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                },
+                {
+                  "title": "Air distribution",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                  "description": "Supplied various air distribution products.",
+                  "top": "22.62%",
+                  "left": "43.56%"
+                },
+                {
+                  "title": "Fire alarm ",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                  "description": "Supplied various fire alarm & fire fighting products.",
+                  "top": "63.06%",
+                  "left": "36.71%"
+                }
+              ]
+            },
+            {
+              "id": 459,
+              "link": "portfolio/al-wakrah-stadium-2",
+              "title": "Al Janoub stadium, Wakrah",
+              "place": "Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Al-Wakrah-Stadium_2_web-1.gif",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Al-Wakrah-Stadium_2_web-1.gif.webp",
+              "specifications": [
+                {
+                  "title": "Insulations",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                  "description": "Supplied various Insulation products",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                },
+                {
+                  "title": "Air distribution",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                  "description": "Supplied various air distribution products.",
+                  "top": "22.62%",
+                  "left": "43.56%"
+                },
+                {
+                  "title": "Fire alarm ",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                  "description": "Supplied various fire alarm & fire fighting products",
+                  "top": "63.06%",
+                  "left": "36.71%"
+                }
+              ]
+            },
+            {
+              "id": 457,
+              "link": "portfolio/hamad-international-airport",
+              "title": "Hamad International Airport",
+              "place": "Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/180323165301-hia-passenger-terminal-at-sunset-full-169.jpg",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/180323165301-hia-passenger-terminal-at-sunset-full-169.jpg.webp",
+              "specifications": [
+                {
+                  "title": "Insulations",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                  "description": "Supplied various Insulation products",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                },
+                {
+                  "title": "Air distribution",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                  "description": "Supplied various air distribution products",
+                  "top": "22.62%",
+                  "left": "43.56%"
+                },
+                {
+                  "title": "Fire alarm ",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                  "description": "Supplied various fire alarm & fire fighting products",
+                  "top": "63.06%",
+                  "left": "36.71%"
+                }
+              ]
+            },
+            {
+              "id": 455,
+              "link": "portfolio/al-bayt-stadium",
+              "title": "Al Bayt Stadium",
+              "place": "Doha, Qatar",
+              "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/2014_06_21_AlBaytStadium_AlKhorCity_02-scaled-1.jpg",
+              "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/2014_06_21_AlBaytStadium_AlKhorCity_02-scaled-1.jpg.webp",
+              "specifications": [
+                {
+                  "title": "Insulations",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/insulation_materials.jpg.webp",
+                  "description": "Supplied various Insulation products",
+                  "top": "39.33%",
+                  "left": "15.8%"
+                },
+                {
+                  "title": "Air distribution",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/kingspan-img.jpg.webp",
+                  "description": "Supplied various air distribution products",
+                  "top": "22.62%",
+                  "left": "43.56%"
+                },
+                {
+                  "title": "Fire alarm ",
+                  "icon": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg",
+                  "icon_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Fire-Detection-and-Alarm-System.jpg.webp",
+                  "description": "Supplied various fire alarm & fire fighting products",
+                  "top": "63.06%",
+                  "left": "36.71%"
+                }
+              ]
+            }
+          ]
         }
       }
     ]
@@ -202,25 +521,17 @@
       "metatitle": "contact",
       "metadescription": "contact description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "contact",
-              "path": "/contact"
-            }
-          ],
-          "title": "contact breadcrumbs",
-          "link": {
-            "url": "/contact",
-            "text": "Learn more",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "contact",
+        "path": "/contact"
+      }
+    ],
+    "widgets": [
       {
         "url": "contact",
         "data": {
@@ -239,25 +550,17 @@
       "metatitle": "gallery",
       "metadescription": "gallery description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "gallery",
-              "path": "/gallery"
-            }
-          ],
-          "title": "gallery breadcrumbs",
-          "link": {
-            "url": "/",
-            "text": "gallery",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "gallery",
+        "path": "/gallery"
+      }
+    ],
+    "widgets": [
       {
         "url": "gallery",
         "data": {
@@ -276,29 +579,21 @@
       "metatitle": "gallery",
       "metadescription": "gallery description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "gallery",
-              "path": "/gallery"
-            },
-            {
-              "title": "all_photos",
-              "path": "/gallery/all_photos"
-            }
-          ],
-          "title": "all_photos breadcrumbs",
-          "link": {
-            "url": "gallery/",
-            "text": "all_photos",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "gallery",
+        "path": "/gallery"
+      },
+      {
+        "title": "all_photos",
+        "path": "/gallery/all_photos"
+      }
+    ],
+    "widgets": [
       {
         "url": "all_photos",
         "data": {
@@ -317,29 +612,21 @@
       "metatitle": "gallery",
       "metadescription": "gallery description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "gallery",
-              "path": "/gallery"
-            },
-            {
-              "title": "latest_photos",
-              "path": "/gallery/latest_photos"
-            }
-          ],
-          "title": "latest_photo breadcrumbs",
-          "link": {
-            "url": "gallery/latest_photo",
-            "text": "latest_photo",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "gallery",
+        "path": "/gallery"
+      },
+      {
+        "title": "latest_photos",
+        "path": "/gallery/latest_photos"
+      }
+    ],
+    "widgets": [
       {
         "url": "latest_photos",
         "data": {
@@ -358,29 +645,21 @@
       "metatitle": "gallery",
       "metadescription": "gallery description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "gallery",
-              "path": "/gallery"
-            },
-            {
-              "title": "featured_photos",
-              "path": "/gallery/featured_photos"
-            }
-          ],
-          "title": "featured photos breadcrumbs",
-          "link": {
-            "url": "/gallery/featured_photos",
-            "text": "featured_photos",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "gallery",
+        "path": "/gallery"
+      },
+      {
+        "title": "featured_photos",
+        "path": "/gallery/featured_photos"
+      }
+    ],
+    "widgets": [
       {
         "url": "featured_photos",
         "data": {
@@ -399,34 +678,25 @@
       "metatitle": "gallery",
       "metadescription": "gallery description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "gallery",
-              "path": "/gallery"
-            },
-            {
-              "title": "favourite_photos",
-              "path": "/gallery/favourite_photos"
-            },
-
-            {
-              "title": "all_favourite_photos",
-              "path": "/gallery/favourite_photos/"
-            }
-          ],
-          "title": "favourite photos breadcrumbs",
-          "link": {
-            "url": "/gallery/favourite_photos",
-            "text": "favourite_photos",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "gallery",
+        "path": "/gallery"
+      },
+      {
+        "title": "favourite_photos",
+        "path": "/gallery/favourite_photos"
+      },
+      {
+        "title": "all_favourite_photos",
+        "path": "/gallery/favourite_photos/"
+      }
+    ],
+    "widgets": [
       {
         "url": "favourite_photos",
         "data": {
@@ -445,34 +715,25 @@
       "metatitle": "gallery",
       "metadescription": "gallery description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "gallery",
-              "path": "/gallery"
-            },
-            {
-              "title": "favourite_photos",
-              "path": "/gallery/favourite_photos"
-            },
-
-            {
-              "title": "all_favourite_photos",
-              "path": "/gallery/favourite_photos/"
-            }
-          ],
-          "title": "all favourite photos breadcrumbs",
-          "link": {
-            "url": "/gallery/favourite_photos/",
-            "text": "all_favourite_photos",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "gallery",
+        "path": "/gallery"
+      },
+      {
+        "title": "favourite_photos",
+        "path": "/gallery/favourite_photos"
+      },
+      {
+        "title": "all_favourite_photos",
+        "path": "/gallery/favourite_photos/"
+      }
+    ],
+    "widgets": [
       {
         "url": "favourite_photos",
         "data": {
@@ -491,34 +752,25 @@
       "metatitle": "gallery",
       "metadescription": "gallery description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "gallery",
-              "path": "/gallery"
-            },
-            {
-              "title": "favourite_photos",
-              "path": "/gallery/favourite_photos"
-            },
-
-            {
-              "title": "family_favourite_photos",
-              "path": "/gallery/favourite_photos/family_favourite_photos"
-            }
-          ],
-          "title": "family favourite photos breadcrumbs",
-          "link": {
-            "url": "/gallery/favourite_photos/family_favourite_photos",
-            "text": "family_favourite_photos",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "gallery",
+        "path": "/gallery"
+      },
+      {
+        "title": "favourite_photos",
+        "path": "/gallery/favourite_photos"
+      },
+      {
+        "title": "family_favourite_photos",
+        "path": "/gallery/favourite_photos/family_favourite_photos"
+      }
+    ],
+    "widgets": [
       {
         "url": "favourite_photos",
         "data": {
@@ -537,35 +789,25 @@
       "metatitle": "gallery",
       "metadescription": "gallery description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "gallery",
-              "path": "/gallery"
-            },
-            {
-              "title": "favourite_photos",
-              "path": "/gallery/favourite_photos"
-            },
-
-            {
-              "title": "friends_favourite_photos",
-              "path": "/gallery/favourite_photos/friends_favourite_photos"
-            }
-          ],
-          "title": "friends favourite photos breadcrumbs",
-          "link": {
-            "url": "/gallery/favourite_photos/friends_favourite_photos",
-            "text": "friends_favourite_photos",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "gallery",
+        "path": "/gallery"
+      },
+      {
+        "title": "favourite_photos",
+        "path": "/gallery/favourite_photos"
+      },
+      {
+        "title": "friends_favourite_photos",
+        "path": "/gallery/favourite_photos/friends_favourite_photos"
+      }
+    ],
+    "widgets": [
       {
         "url": "favourite_photos",
         "data": {
@@ -584,25 +826,17 @@
       "metatitle": "portfolio",
       "metadescription": "portfolio description"
     },
-    "widgets": [
+    "levels": [
       {
-        "url": "breadcrumbs",
-        "data": {
-          "levels": [
-            { "title": "Home", "path": "/" },
-            {
-              "title": "portfolio",
-              "path": "/portfolio"
-            }
-          ],
-          "title": "portfolio breadcrumbs",
-          "link": {
-            "url": "/portfolio",
-            "text": "portfolio",
-            "target": ""
-          }
-        }
+        "title": "Home",
+        "path": "/"
       },
+      {
+        "title": "portfolio",
+        "path": "/portfolio"
+      }
+    ],
+    "widgets": [
       {
         "url": "portfolio",
         "data": {
@@ -872,20 +1106,162 @@
       ]
     }
   },
+  "newsletter": [
+    {
+      "newsletter_email": "akash198@web.com",
+      "id": 1
+    },
+    {
+      "newsletter_email": "akash@web.com",
+      "id": 2
+    },
+    {
+      "newsletter_email": "akash999@web.com",
+      "id": 3
+    },
+    {
+      "newsletter_email": "akash111@web.com",
+      "id": 4
+    },
+    {
+      "newsletter_email": "a2@ds.com",
+      "id": 5
+    },
+    {
+      "newsletter_email": "akash298@web.com",
+      "id": 6
+    },
+    {
+      "newsletter_email": "akash999@web.com",
+      "id": 7
+    },
+    {
+      "newsletter_email": "akas@ddd.com",
+      "id": 8
+    },
+    {
+      "newsletter_email": "akash121@web.com",
+      "id": 9
+    },
+    {
+      "newsletter_email": "akas454@ddd.com",
+      "id": 10
+    }
+  ],
   "form-submit": [
+    {
+      "signUp_name": "akashmohancs4121",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 3
+    },
     {
       "signUp_name": "akashmohancs4984",
       "signUp_mobile": "+919995454498",
       "signUp_email": "akash12345@web.com",
       "signUp_password": "akashmohan",
-      "id": 1
+      "id": 4
     },
     {
       "signUp_name": "akashmohancs123",
       "signUp_mobile": "+919995454498",
       "signUp_email": "akash666@web.com",
       "signUp_password": "akashmohan",
-      "id": 4
+      "id": 5
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 7
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 9
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 10
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 11
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 12
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 13
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 14
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 15
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 16
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 17
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 18
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 19
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 20
     },
     {
       "signUp_name": "akashmohancs",
@@ -893,6 +1269,989 @@
       "signUp_email": "akash111@web.com",
       "signUp_password": "akashmohan",
       "id": 5
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 21
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 22
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 23
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 24
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 25
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 26
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 27
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 28
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 29
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 30
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 31
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 32
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 33
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 34
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 35
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 36
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 37
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 38
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 39
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 40
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 41
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 42
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 43
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 44
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 45
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 46
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 47
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 48
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 49
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 50
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 51
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 52
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 53
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 54
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 55
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 56
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 57
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 58
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 59
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 60
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 61
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 62
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 63
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 64
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 65
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 66
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 67
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash111@web.com",
+      "signUp_password": "akashmohan",
+      "id": 68
+    },
+    {
+      "signUp_name": "akashmohancs4984",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash12345@web.com",
+      "signUp_password": "akashmohan",
+      "id": 69
+    },
+    {
+      "signUp_name": "akashmohancs123",
+      "signUp_mobile": "+919995454498",
+      "signUp_email": "akash666@web.com",
+      "signUp_password": "akashmohan",
+      "id": 70
+    },
+    {
+      "signUp_name": "aksh9876",
+      "signUp_mobile": "874874875487",
+      "signUp_email": "akash9876@web.com",
+      "signUp_password": "akashmohan",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 71
+    },
+    {
+      "signUp_name": "akash7722",
+      "signUp_mobile": "dsd",
+      "signUp_email": "akash7722@web.com",
+      "signUp_password": "akashmohan",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 72
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 73
+    },
+    {
+      "signUp_name": "akashmohancs4545",
+      "signUp_phone": "4545454545",
+      "signUp_email": "akash4545@web.com",
+      "signUp_password": "akashmohan",
+      "signUp_avatar": {},
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 74
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_phone": "54545454",
+      "signUp_email": "akash999@web.com",
+      "signUp_password": "rtrtrtrtr",
+      "signUp_avatar": {},
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 75
+    },
+    {
+      "id": 76
+    },
+    {
+      "id": 77
+    },
+    {
+      "id": 78
+    },
+    {
+      "signUp_name": "sdsdsdsds12132",
+      "signUp_phone": "43434343",
+      "signUp_email": "akash999@web.com",
+      "signUp_password": "dfdfdfdfdfdf",
+      "signUp_avatar": {},
+      "signUp_newsletter": "0",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 79
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_phone": "4454545",
+      "signUp_email": "akash999@web.com",
+      "signUp_password": "rfdfdfdfd",
+      "signUp_avatar": {},
+      "signUp_newsletter": "0",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 80
+    },
+    {
+      "signUp_name": "dfdfdfdf",
+      "signUp_phone": "343434343",
+      "signUp_email": "akash999@web.com",
+      "signUp_password": "fdfdfdfdf",
+      "signUp_avatar": {},
+      "signUp_newsletter": "0",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 81
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_phone": "4454545",
+      "signUp_email": "akash298@web.com",
+      "signUp_password": "fgfgfgfgfgf",
+      "signUp_avatar": {},
+      "signUp_newsletter": "0",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 82
+    },
+    {
+      "signUp_name": "akashmohancs",
+      "signUp_phone": "4545454",
+      "signUp_email": "akash999@web.com",
+      "signUp_password": "gfgfgfgfg",
+      "signUp_avatar": {},
+      "signUp_newsletter": "1",
+      "key": "honeypot437493848",
+      "my_nonce": "4339fe5ff3",
+      "id": 83
     }
-  ]
+  ],
+  "search": {
+    "data": {
+      "widgets": {
+        "tabs": [
+          {
+            "title": "Company",
+            "type": "company",
+            "data": [
+              {
+                "id": 156,
+                "title": "Qatar Insulation",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/QIC.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/QIC.png.webp",
+                "content": "Qatar Insulation or QIC as we are more popularly known has hugely contributed to the insulation requirements of the region with its vast experience & efficient management of its customer requirements. Well trained sales team who are market aware & customer focused, catering to a wide range of applications. A well equipped & adequately stocked warehouse for swift emergency needs winning the customers’ goodwill creating strong bonds for continuing long term relationships.",
+                "link": "/subsidiary/qatar-insulation"
+              },
+              {
+                "id": 157,
+                "title": "Jersey Engineering",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JET.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JET.png.webp",
+                "content": "Jersey Engineering & Trading Company, a flagship company of  Jersey Group has more than two decades of experience in executing & delivering future-ready HVAC products and services. With offerings ranging from Centrifugal chillers to ventilation fans, valves, pumps &  large scale district cooling air conditioners; the company enjoys a virtual pole position in the market. Jersey Engineering & Trading Company is a single point solution provider for multiple customer requirements and is closely working with highly experienced consultants who are ever-ready to go the extra mile to ensure strong & lasting customer service.",
+                "link": "/subsidiary/jersey-engineering"
+              },
+              {
+                "id": 158,
+                "title": "Jersey Manufacturing",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JMC.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JMC.png.webp",
+                "content": "With the start up plant for Air Outlets & accessories ,we set foot into the manufacturing sector taking an early lead into this segment. JMC further grew in size & stature & has today set up two state of the art modern plants in the New Industrial Area ,Qatar producing high quality Fire & Smoke dampers that are UL listed & QCDD approved apart from the full range of diffusers, air outlets & Louvers.",
+                "link": "/subsidiary/jersey-manufacturing"
+              },
+              {
+                "id": 159,
+                "title": "Jersey Industrial",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JIT.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JIT.png.webp",
+                "content": "We are an established company in Qatar & one of the earliest subsidiaries of Jersey Group. Since our  inception as a trading house for engineering spares, Jersey Industrial Company or JIC has upgraded itself driven by zeal & passion into becoming one of the region’s leading engineering companies for Machinery Maintenance & Various retrofit solutions. Our wider scope includes Annual Maintenance Contracts, Automation Engineering, Control panel design & Assembly, Industrial Automation, Testing and Commissioning of Automation panels, MCC  Panels and services. JIC also has presence in Oil & Gas industries for supplying Insulations, Valves and Accessories for very specific applications.\r\n\r\n",
+                "link": "/subsidiary/jersey-industrial"
+              },
+              {
+                "id": 160,
+                "title": "Jersey Glass",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JGF-1.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JGF-1.png.webp",
+                "content": "At Jersey Glass , we are passionate about quality &  process some of the best glass variants produced by  the world’s  leading float glass manufacturers offering stunning finished products that dot a vast cross section of the prestigious tower projects in the region.",
+                "link": "/subsidiary/jersey-glass"
+              },
+              {
+                "id": 161,
+                "title": "Firelink",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/FLK.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/FLK.png.webp",
+                "content": "Firelink, an end-to-end provider of building security solutions since 1996, leverages in-house expertise as well as technology and product know-how from world-renowned manufacturers to meet the fire & life safety needs of a wide range of clients from Commercial, Residential towers to Hotels, Oil & Gas sector, Hospitals and Large enterprises. We are a certified Qatar Civil Defence Grade A contractor. Firelink is also certified to widely recognized standards such as ISO 9001 (quality management systems), ISO 14001 (environmental management), and OSHAS 18001 (occupational health and safety). Furthermore, the organization is a member of National Fire Protection Association of USA (NFPA) and COFSA.",
+                "link": "/subsidiary/firelink"
+              },
+              {
+                "id": 162,
+                "title": "Jersey Services",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JSC-1.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/JSC-1.png.webp",
+                "content": "We provide Integrated Facility Management (IFM) services vide advanced technologies and Energy Efficiency Services that enhance optimized use of energy within your facilities. We also provide specialized services such as Fire and building safety & security systems.\r\n\r\nWhether you are a corporate looking to focus on your core business or a property owner/owners association seeking to protect your investment, we are a single-source solution provider of the complete spectrum of facilities & services that can help you maximize your built assets while significantly lower operating costs and simplify overall maintenance management.\r\n\r\nFrom day-to-day cleaning services to MEP maintenance and building system operations, security and emergency preparedness, we offer a total & comprehensive FM solution that match your needs. We can customize this solution further to suit specific client requirements and well-defined service level agreements that guarantee complete peace of mind for you.",
+                "link": "/subsidiary/jersey-services"
+              }
+            ]
+          },
+          {
+            "title": "Projects",
+            "type": "projects",
+            "data": [
+              {
+                "id": 77,
+                "title": "Zulal Destination Spa & Family Resort",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/354681221.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/354681221.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/al-wakrah-stadium"
+              },
+              {
+                "id": 434,
+                "title": "Qp Financial District",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/649-13.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/649-13.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/qp-financial-district"
+              },
+              {
+                "id": 436,
+                "title": "Ezdan Place Hotel",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/exterior-2_2_orig.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/exterior-2_2_orig.jpg.webp",
+                "place": "DOHA - QATAR",
+                "link": "/portfolio/ezdan-place-hotel"
+              },
+              {
+                "id": 438,
+                "title": "Doha Festival City",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Doha-Festival-City-building-qatarisbooming.com_.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Doha-Festival-City-building-qatarisbooming.com_.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/doha-festival-city"
+              },
+              {
+                "id": 439,
+                "title": "College Of Pharmacy: Qatar University",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/mimar-college-of-pharmacy-1.jpg.webp",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/mimar-college-of-pharmacy-1.jpg.webp.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/qatar-university"
+              },
+              {
+                "id": 441,
+                "title": "Doha Oasis",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/000-TEC-Birds-Eye-Render-1800x1013-1.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/000-TEC-Birds-Eye-Render-1800x1013-1.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/doha-oasis"
+              },
+              {
+                "id": 443,
+                "title": "Vendome Mall",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Place-Vendome-02.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Place-Vendome-02.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/vendome-mall"
+              },
+              {
+                "id": 445,
+                "title": "Katara Children's Mall",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/children_mall_3.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/children_mall_3.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/katara-childrens-mall"
+              },
+              {
+                "id": 449,
+                "title": "Workers Hospital",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/c68b58f7-f184-4662-bbff-565e1989ee3f.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/c68b58f7-f184-4662-bbff-565e1989ee3f.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/workers-hospital"
+              },
+              {
+                "id": 451,
+                "title": "Hilton Salwa Beach Resort",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Vogelperspektive-Hilton-Salwa-Beach-Resort-1582626770.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Vogelperspektive-Hilton-Salwa-Beach-Resort-1582626770.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/hilton-salwa-beach-resort"
+              },
+              {
+                "id": 453,
+                "title": "Khalifa Stadium - Energy Center",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/c8d18732f22941459510def5fb266789.jpeg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/c8d18732f22941459510def5fb266789.jpeg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/khalifa-stadium-energy-center"
+              },
+              {
+                "id": 455,
+                "title": "Al Bayt Stadium",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/2014_06_21_AlBaytStadium_AlKhorCity_02-scaled-1.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/2014_06_21_AlBaytStadium_AlKhorCity_02-scaled-1.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/al-bayt-stadium"
+              },
+              {
+                "id": 457,
+                "title": "Hamad International Airport",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/180323165301-hia-passenger-terminal-at-sunset-full-169.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/180323165301-hia-passenger-terminal-at-sunset-full-169.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/hamad-international-airport"
+              },
+              {
+                "id": 459,
+                "title": "Al Janoub stadium, Wakrah",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Al-Wakrah-Stadium_2_web.gif",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/Al-Wakrah-Stadium_2_web.gif.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/al-wakrah-stadium-2"
+              },
+              {
+                "id": 462,
+                "title": "Qatar Rail",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/doha_metro1.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/10/doha_metro1.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/qatar-rail"
+              },
+              {
+                "id": 464,
+                "title": "Lusail LRT",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Lusail-Light-Rail-Transit-02.webp",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Lusail-Light-Rail-Transit-02.webp.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/lusail-lrt"
+              },
+              {
+                "id": 466,
+                "title": "New Doha Port",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/19Qatar_Ports-18.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/19Qatar_Ports-18.jpg.webp",
+                "place": "Doha, Qatar",
+                "link": "/portfolio/new-doha-port"
+              },
+              {
+                "id": 2429,
+                "title": "Wadi MCDP Lusail – Marafeq",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Wadi-Lusail-Park.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Wadi-Lusail-Park.jpg.webp",
+                "place": "Lusail, Doha, Qatar",
+                "link": "/portfolio/wadi-mcdp-lusail-marafeq"
+              },
+              {
+                "id": 2432,
+                "title": "Qatar University - Molecular Lab",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/research-centers-clu.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/research-centers-clu.jpg.webp",
+                "place": "Qatar University, Doha, Qatar",
+                "link": "/portfolio/qatar-university-molecular-lab"
+              },
+              {
+                "id": 2434,
+                "title": "HIA Central Concourse",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/HIA_Garden.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/HIA_Garden.jpg.webp",
+                "place": "Hamad International Airport, Doha, Qatar",
+                "link": "/portfolio/hia-central-concourse"
+              },
+              {
+                "id": 2438,
+                "title": "Lusail Plaza Tower",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/3231235456.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/3231235456.png.webp",
+                "place": "Lusail, Doha, Qatar",
+                "link": "/portfolio/lusail-plaza-tower"
+              }
+            ]
+          },
+          {
+            "title": "Blogs and News",
+            "type": "articles",
+            "data": [
+              {
+                "id": 2284,
+                "category": "News",
+                "title": "Extending reach in to Oil & Gas Sector",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23453.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23453.jpg.webp",
+                "link": "/news/jersey-industrial-a-leader-in-industrial-automation-in-qatar"
+              },
+              {
+                "id": 2286,
+                "category": "News",
+                "title": "Exploring new horizons (KSA)",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Group-23454.jpg.webp",
+                "link": "/news/jersey-integrated-company"
+              },
+              {
+                "id": 2289,
+                "category": "News",
+                "title": "Visit our new showroom",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Rectangle-7575.jpg.webp",
+                "link": "/news/jersey-engineering-showroom"
+              }
+            ]
+          },
+          {
+            "title": "Catalogs",
+            "type": "brochures",
+            "data": [
+              {
+                "id": 2291,
+                "description": "",
+                "title": "Firelink - Company Profile",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-230042.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-230042.png.webp",
+                "link": "firelink-company-profile"
+              },
+              {
+                "id": 2294,
+                "description": "",
+                "title": "Jersey Engineering & Trading - Company Profile",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-230324.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-230324.png.webp",
+                "link": "jersey-engineering-trading-company-profile"
+              },
+              {
+                "id": 2297,
+                "description": "",
+                "title": "Jersey Glass - Company Profile",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-230849.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-230849.png.webp",
+                "link": "jersey-glass-company-profile"
+              },
+              {
+                "id": 2300,
+                "description": "",
+                "title": "Jersey Industrial - Company Profile",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-231133.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-231133.png.webp",
+                "link": "jersey-industrial-company-profile"
+              },
+              {
+                "id": 2303,
+                "description": "",
+                "title": "Jersey Manufacuring - Company Profile",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-231422.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-231422.png.webp",
+                "link": "jersey-manufacuring-company-profile"
+              },
+              {
+                "id": 2308,
+                "description": "",
+                "title": "Qatar Insulation - Company Profile",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-231757.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-231757.png.webp",
+                "link": "qatar-insulation-company-profile"
+              },
+              {
+                "id": 2311,
+                "description": "Jersey Aluglass self-adhesive tape is a premium quality tape specifically, build for the Aluglass Range of Insulation products in the HVAC industry",
+                "title": "Jersey Aluglass Tape",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-232306.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-232306.png.webp",
+                "link": "jersey-aluglass-tape-3"
+              },
+              {
+                "id": 2317,
+                "description": "",
+                "title": "Well Wall Product Catalogue",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-232843.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-232843.png.webp",
+                "link": "well-wall-product-catalogue-2"
+              },
+              {
+                "id": 2320,
+                "description": "",
+                "title": "Saudi Rockwool",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-233217.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-233217.png.webp",
+                "link": "saudi-rockwool"
+              },
+              {
+                "id": 2325,
+                "description": "",
+                "title": "Saudi Rockwool - ETICS/EIFS",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-233648.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-233648.png.webp",
+                "link": "saudi-rockwool-etics-eifs"
+              },
+              {
+                "id": 2328,
+                "description": "",
+                "title": "Saudi Rockwool - Granulated Wool",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-234208.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-234208.png.webp",
+                "link": "saudi-rockwool-granulated-wool"
+              },
+              {
+                "id": 2331,
+                "description": "",
+                "title": "Saudi Rockwool - SRWF HVAC",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-234740.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-234740.png.webp",
+                "link": "saudi-rockwool-srwf-hvac"
+              },
+              {
+                "id": 2339,
+                "description": "",
+                "title": "Morgan Firemaster Fastwrap Kitechen Ducts",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-234740-1.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-234740-1.png.webp",
+                "link": "morgan-firemaster-fastwrap-kitechen-ducts"
+              },
+              {
+                "id": 2342,
+                "description": "",
+                "title": "Morgan Fast wrap XL Catalogue for Kitchen Exhaust & Smoke Exhaust Duct",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235510.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235510.png.webp",
+                "link": "morgan-fast-wrap-xl-catalogue-for-kitchen-exhaust-smoke-exhaust-duct"
+              },
+              {
+                "id": 2345,
+                "description": "",
+                "title": "KIMMCO Rockwool - RBS",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618.png.webp",
+                "link": "kimmco-rockwool-rbs-2"
+              },
+              {
+                "id": 2349,
+                "description": "",
+                "title": "KIMMCO Rockwool - Mattress",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618-1.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618-1.png.webp",
+                "link": "kimmco-rockwool-mattress"
+              },
+              {
+                "id": 2352,
+                "description": "",
+                "title": "KIMMCO Rockwool - Pipes",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618-1.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618-1.png.webp",
+                "link": "kimmco-rockwool-pipes"
+              },
+              {
+                "id": 2354,
+                "description": "",
+                "title": "KIMMCO - FSK Pipe Catalogue",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618-1.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618-1.png.webp",
+                "link": "kimmco-fsk-pipe-catalogue"
+              },
+              {
+                "id": 2356,
+                "description": "",
+                "title": "KIMMCO - K450+ Plus Aluglass Pipe Catalogue",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618-1.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-11-30-235618-1.png.webp",
+                "link": "kimmco-k450-plus-aluglass-pipe-catalogue"
+              },
+              {
+                "id": 2358,
+                "description": "",
+                "title": "KIMMCO - Building Roll",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-001139.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-001139.png.webp",
+                "link": "kimmco-building-roll"
+              },
+              {
+                "id": 2361,
+                "description": "",
+                "title": "KIMMCO - Building Slab",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-001407.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-001407.png.webp",
+                "link": "kimmco-building-slab"
+              },
+              {
+                "id": 2364,
+                "description": "",
+                "title": "KIMMCO - Clean Liner",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-001526.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-001526.png.webp",
+                "link": "kimmco-clean-liner"
+              },
+              {
+                "id": 2369,
+                "description": "",
+                "title": "KIMMCO-ISOVER - Duct Insulation",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-002935.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-002935.png.webp",
+                "link": "kimmco-isover-duct-insulation"
+              },
+              {
+                "id": 2372,
+                "description": "",
+                "title": "KIMMCO-ISOVER - Duct Insulation Plus",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003112.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003112.png.webp",
+                "link": "kimmco-isover-duct-insulation-plus"
+              },
+              {
+                "id": 2375,
+                "description": "",
+                "title": "KIMMCO-ISOVER - Self Seal",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003245.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003245.png.webp",
+                "link": "kimmco-isover-self-seal"
+              },
+              {
+                "id": 2378,
+                "description": "",
+                "title": "KIMMCO-ISOVER - Lamella Insul",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003357.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003357.png.webp",
+                "link": "kimmco-isover-lamella-insul"
+              },
+              {
+                "id": 2381,
+                "description": "",
+                "title": "K-FLEX ST Elastomeric Rubber Insulations",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003541.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003541.png.webp",
+                "link": "k-flex-st-elastomeric-rubber-insulations"
+              },
+              {
+                "id": 2384,
+                "description": "",
+                "title": "K-FLEX - K-Protect XLPE Pipe Sheet",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003720.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003720.png.webp",
+                "link": "k-flex-k-protect-xlpe-pipe-sheet"
+              },
+              {
+                "id": 2387,
+                "description": "",
+                "title": "FEVICOL - AC DUCT KING LAG COATING E-84",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003852.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/11/Screenshot-2022-12-01-003852.png.webp",
+                "link": "fevicol-ac-duct-king-lag-coating-e-84"
+              },
+              {
+                "id": 2404,
+                "description": "",
+                "title": "FEVICOL - AC DUCT KING LAG COATING AF 5590",
+                "image": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Screenshot-2022-12-01-104457.png",
+                "image_webp": "https://admin.jerseygroup.com/wp-content/uploads/2022/12/Screenshot-2022-12-01-104457.png.webp",
+                "link": "fevicol-ac-duct-king-lag-coating-af-5590"
+              }
+            ]
+          }
+        ],
+        "total_posts": 61
+      }
+    }
+  },
+  "create_nonce": {
+    "key": "honeypot437493848",
+    "nonce": "4339fe5ff3"
+  }
 }

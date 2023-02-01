@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import React, { use, useEffect, useState } from "react";
 import Form from "react-bootstrap/Form";
 import Style from "./signup.module.scss";
 import { Col, Row, Container } from "react-bootstrap";
@@ -8,21 +8,26 @@ import Link from "next/link";
 import { BsCheck } from "react-icons/bs";
 import { FiEdit } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
-import { updateUser } from "lib/pages";
+import { postContent, updateUser } from "lib/pages";
 
 const UpdateForm = ({ user, setUpdate }) => {
-
   const [message, setMessage] = useState();
   const [isEdit, setIsEdit] = useState({
     name: "",
     mobile: "",
     email: "",
     password: "",
-  })
+  });
 
   const [formSubmitted, setFormSubmitted] = useState(false);
-
+  const [nonce, setNonce] = useState();
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    postContent("create_nonce", "").then((response) => {
+      setNonce(response);
+    });
+  }, []);
 
   let signUpVal = Yup.object({
     name: Yup.string()
@@ -59,6 +64,8 @@ const UpdateForm = ({ user, setUpdate }) => {
           signUp_mobile: values.mobile,
           signUp_email: values.email,
           signUp_password: values.password,
+          key: nonce.key,
+          my_nonce: nonce.nonce,
         };
 
         updateUser("form-submit", obj, user.id).then((response) => {

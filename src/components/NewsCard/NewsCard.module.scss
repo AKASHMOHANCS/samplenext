@@ -1,0 +1,58 @@
+
+
+.news_card {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px solid #cad5e0;
+  flex-wrap: wrap;
+
+  &_img {
+    flex: 0 0 auto;
+    order: 1;
+    width: 100%;
+   
+
+    
+  }
+
+  &_info {
+    flex: 1 0;
+    max-width: 1036px;
+    order: 2;
+    padding: 20px 0;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+
+    .badge {
+      display: inline-block;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      color: #fff;
+      border-radius: 10rem;
+      background: #f18a00;
+      padding: 3px 10px;
+      margin-bottom: 16px;
+    }
+
+    h4 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: size(14);
+    }
+
+
+    a {
+      display: inline-block;
+      font-weight: 500;
+      text-decoration: underline;
+      font-size: 16px;
+      color: #000;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+
+.pagination {
+    --bs-pagination-border-color: #fff;
+    --bs-pagination-active-color: #000;
+    --bs-pagination-active-bg: transparent;
+    --bs-pagination-active-border-color: #000;
+    --bs-pagination-hover-bg: #1aa1ed;
+    --bs-pagination-hover-color: #fff;
+    --bs-pagination-color: #000;
+    --bs-pagination-disabled-border-color: #fff;
+    justify-content: center;
+    margin-top: 30px;
+    :global {
+        .page-link {
+            border-radius: 5px;
+        }
+    }
+}

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { getLayout, getPageContent } from "lib/pages";
 import dynamic from "next/dynamic";
+import CustomBreadcrumb from "@/components/CustomBreadcrumb";
 
 // import CommonLayout from "@/components/Layouts/CommonLayout";
 // import NotFound from "@/components/NotFound";
@@ -18,6 +19,7 @@ const ComponentFunc = dynamic(() => import("@/components"), {
 });
 
 const Common = ({ data }) => {
+
   return (
     <>
       <Head>
@@ -38,7 +40,15 @@ const Common = ({ data }) => {
           <>
             {data && (
               <CommonLayout props={data?.menu}>
-                <>{data?.widgets?.map((block) => ComponentFunc(block))}</>
+                <CustomBreadcrumb levels={data.levels} />
+                {data?.widgets?.map((block) => {
+                  return (
+                    <>
+                      
+                      {ComponentFunc(block)}
+                    </>
+                  );
+                })}
               </CommonLayout>
             )}
           </>

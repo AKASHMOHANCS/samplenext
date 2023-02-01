@@ -11,6 +11,7 @@ import { useSelector } from "react-redux";
 import dynamic from "next/dynamic";
 import ComponentFunc from "@/components";
 import AlbumDetails from "@/components/AlbumDetails";
+import CustomBreadcrumb from "@/components/CustomBreadcrumb";
 
 const CommonLayout = dynamic(
   () => import("@/components/Layouts/CommonLayout"),
@@ -28,7 +29,7 @@ const Gallery = dynamic(() => import("@/components/AlbumDetails/Gallery"), {
 
 const Album = (data) => {
 
-  console.log(data,"album data ====")
+  
   const [loading, setLoading] = useState(true);
   const router = useRouter();
   const { isLoggedIn } = useSelector((state) => state.auth);
@@ -83,7 +84,7 @@ const Album = (data) => {
                     </Col>
                   </Row>
                 </Container> */}
-                
+                 
             <AlbumDetails data={data} />
                 
               </CommonLayout>
@@ -97,14 +98,14 @@ const Album = (data) => {
 
 export default Album;
 
-// export async function getStaticPaths() {
-//   return {
-//     paths: [{ params: { slug: ["1"] } }],
-//     fallback: true,
-//   };
-// }
+export async function getStaticPaths() {
+  return {
+    paths: [{ params: { slug: ["gallery"] } }],
+    fallback: true,
+  };
+}
 
-export const getServerSideProps = async ({ params }) => {
+export const getStaticProps = async ({ params }) => {
   if (!!params.slug) {
     if (params.slug.length == 1) {
       let route = params.slug[0];

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -7,12 +7,23 @@ import Style from "./header.module.scss";
 import { signOut, signIn, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import { useDispatch, useSelector } from "react-redux";
-import {  selectIsLoggedIn, setIsLoggedIn } from "@/Store/authSlice";
+import { selectIsLoggedIn, setIsLoggedIn } from "@/Store/authSlice";
+import Modal from "react-bootstrap/Modal";
+import { AiOutlineSearch } from 'react-icons/ai';
+import Search from "@/components/Search";
 
 const Header = ({ props }) => {
   const { isLoggedIn } = useSelector((state) => state.auth);
-  
- // const isLoggedIn = useSelector(selectIsLoggedIn); // updated
+
+  const [show, setShow] = useState(false);
+
+  const handleCloseModal = () => {
+    setShow(false);
+    // handleClose();
+  };
+  const handleShowModal = () => setShow(true);
+
+  // const isLoggedIn = useSelector(selectIsLoggedIn); // updated
 
   const { data: session, status } = useSession();
 
@@ -23,10 +34,8 @@ const Header = ({ props }) => {
   const handleLogout = () => {
     if (window.confirm("Do you really want to leave?")) {
       try {
-        
         localStorage.removeItem("user");
-         dispatch(setIsLoggedIn());
-   
+        dispatch(setIsLoggedIn());
       } catch (error) {
         // An error happened.
       }
@@ -82,7 +91,26 @@ const Header = ({ props }) => {
             )}
           </nav>
         </Navbar.Collapse>
+        <div className="nav-item ms-auto  order-lg-2">
+          <button
+            className={`btn btn-transparent ${Style.search_btn} px-2`}
+            onClick={handleShowModal}
+          >
+            <AiOutlineSearch size={30} className="mx-5" />
+          </button>
+        </div>
       </Navbar>
+
+      <Modal
+        fullscreen
+        show={show}
+        className={Style.modal}
+        onHide={handleCloseModal}
+      >
+        <Modal.Body className="p-0">
+          <Search modalClose={handleCloseModal} />
+        </Modal.Body>
+      </Modal>
     </div>
   );
 };

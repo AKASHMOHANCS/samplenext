@@ -48,3 +48,30 @@ background-color: transparent;
   opacity: 1;
   transition: all 0.2s ease-in;
 }
+
+.modal {
+  max-height: calc(100vh - 71px);
+
+  // bottom: 0px;
+  top: 71px;
+
+
+}
+
+.modal-backdrop {
+  --bs-backdrop-opacity: 0;
+}
+
+
+.search_btn {
+  svg {
+    display: block !important;
+    color: #000;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: transparent;
+  }
+}

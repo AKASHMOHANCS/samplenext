@@ -1,0 +1,49 @@
+select {
+  width: 197px;
+  height: 46px;
+
+  /* UI Properties */
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: 1px solid #5f5f5f;
+  border-radius: 4px;
+}
+
+.selectText {
+  text-align: center;
+  margin-bottom: 3%;
+  font: normal normal medium 16px/45px Inter;
+  letter-spacing: 0px;
+  color: #242424;
+  text-transform: capitalize;
+  border: 1px solid #5f5f5f;
+  border-radius: 4px;
+  opacity: 1;
+}
+.button {
+  width: 197px;
+
+  text-align: center;
+  border: none;
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font: normal normal 600 16px/40px Inter;
+  letter-spacing: 0px;
+  color: #6e56de;
+  text-transform: capitalize;
+}
+
+@media (max-width: 990px) {
+  .button {
+    width: 100%;
+  }
+  .selectContainer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 290px) {
+  select {
+    width: 100%;
+  }
+}
