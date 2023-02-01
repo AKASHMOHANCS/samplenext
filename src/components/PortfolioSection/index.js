@@ -9,10 +9,11 @@ import Signup from "../SignUp";
 import UpdateForm from "../UpdateForm";
 
 const PortfolioSection = ({ props }) => {
+
   const [update, setUpdate] = useState(false);
   const [user, setUser] = useState({});
   const [message, setMessage] = useState();
-  //const [userDetails, setUserDetails] = useState([]);
+  const [userDetails, setUserDetails] = useState([]);
 
   const dispatch = useDispatch();
 
@@ -22,7 +23,9 @@ const PortfolioSection = ({ props }) => {
     );
   }, [update]);
 
-  const { userDetails } = useSelector((state) => state.auth.paginationData);
+  //const { userDetails } = useSelector((state) => state.auth.paginationData);
+
+
 
   const handleDelete = (userId) => {
     try {
